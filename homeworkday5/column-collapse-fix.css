@@ -1,0 +1,17 @@
+body {
+                width: 960px;
+                margin: 0 auto;
+            }
+            .parent-container {
+                background-color: #d0b783;  
+                overflow: hidden;
+                width: 1150px;
+            }
+            
+            .child-container {
+                background-color: #bcd2d0;
+                float: left;
+                margin: 10px 25px 10px 10px;
+                width: 250px;
+                height: 300px;
+            }

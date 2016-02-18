@@ -63,4 +63,19 @@ h3 {
 
 .par {
     padding-left: 20px;
+    font-family: sans-serif;
+}
+
+form {
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+.button {
+    background-color: #111;
+    color:#fff;
+}
+
+input {
+  
 }

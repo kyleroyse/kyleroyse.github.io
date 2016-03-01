@@ -1,0 +1,32 @@
+main {
+    background: url('../img/1.jpg');
+    width: 1440px;
+    height: 500px;
+    color:#fff;
+    margin-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 200px;
+}
+
+a {
+    color:#fff;
+    text-decoration: none;
+    background-color: #9ACD32;
+    border: 5px solid  #9ACD32;
+    
+}
+
+#land {
+    
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#bottom-p {
+    padding-bottom: 50px;
+}

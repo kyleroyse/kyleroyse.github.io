@@ -1,0 +1,93 @@
+.small-box {
+    width:280px;
+    height: 180px;
+    padding: 40px;
+}
+
+.small-box h2 {
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.small-box p {
+    color: green;
+}
+
+
+#grow {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/featured-image-3.jpg'); 
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+#plant {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/featured-image-4.jpg');
+    background-repeat: no-repeat;
+}
+
+#land {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/featured-image-5.jpg');
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+    padding: 40px;
+    float:left;
+    color: #fff;
+    margin-left: 20px;
+}
+
+main {
+    background-color: #fff;
+    width: 1150px;
+}
+
+aside {
+    float:left;
+    
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 85px;
+}
+
+h3 {
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.bottom-p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.clear-fix:after {
+    content:'';
+    display:block;
+    clear: both;
+}
+
+h3 {
+    color: forestgreen;
+}
+
+.bottom-links {
+    color: #fff;
+    text-decoration: none;
+}
+
+#more {
+    border: 10px solid #595959;
+    background-color: #595959;
+}
+
+#products {
+    border: 1px solid #fff;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

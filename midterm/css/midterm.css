@@ -1,0 +1,167 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    padding-top:20px;
+    font-size: 40px;
+    float: left;
+}
+
+header nav {
+    float: right;
+    padding-right: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 40px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.clearfix {
+    content: '';
+    display: none;
+    clear: both;
+}
+
+#hero {
+    background: url('../img/hueco-tanks.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+#hero h2  {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 280px;
+    font-size: 100px;
+    color: #fff;
+}
+
+#hero p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.jumbotron a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    color: #fff;
+    padding: 5px;
+}
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#wild-child {
+    background: url('../img/wild-child.jpg');
+    float: left;
+    background-size: cover;
+    width: 30%;
+    height: 350px;
+    padding-bottom: 50px;
+}
+
+#bio {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+   margin-left: 450px;
+    margin-top: 125px;
+    margin-right: 100px;
+}
+
+#k {
+    background-color: #D4D4D4;
+    height: 450px;
+    width: 100%;
+    clear: both;
+    margin-top: 180px;
+}
+
+#links {
+    margin-left: 65px;
+}
+
+#music {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+
+
+#soundcloud {
+    height: 150px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#music h4 {
+    margin-left: 78px;
+    font-weight: bold;
+}
+
+#music p {
+    
+}
+
+#video {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+
+#youtube {
+    height: 150px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#video h4 {
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+#freelance {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+
+#upwork {
+    height: 150px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#freelance h4 {
+    margin-left: 100px;
+    font-weight: bold;
+}

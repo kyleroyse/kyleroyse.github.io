@@ -3,11 +3,12 @@
     margin: 0 auto;
 }
 
-header h1 {
+h1 {
     font-family: 'Open Sans', sans-serif;
     padding-top:20px;
     font-size: 40px;
     float: left;
+    clear: both;
 }
 
 header nav {
@@ -16,6 +17,7 @@ header nav {
 }
 
 header nav a {
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: #000;
     margin-left: 40px;
@@ -25,11 +27,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.clearfix {
-    content: '';
-    display: none;
-    clear: both;
-}
 
 #hero {
     background: url('../img/hueco-tanks.jpg');
@@ -43,7 +40,7 @@ nav a:hover {
 #hero h2  {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    margin-top: 280px;
+    margin-top: 210px;
     font-size: 100px;
     color: #fff;
 }
@@ -94,10 +91,10 @@ h3 {
 
 #k {
     background-color: #D4D4D4;
-    height: 450px;
+    height: 470px;
     width: 100%;
     clear: both;
-    margin-top: 180px;
+    margin-top: 200px;
 }
 
 #links {
@@ -124,10 +121,14 @@ h3 {
 }
 
 #music h4 {
-    margin-left: 78px;
+    margin-left: 2px;
     font-weight: bold;
     margin-bottom: 40px;
     margin-top: 20px;
+}
+
+#music p {
+    margin-left: 30px;
 }
 
 #video {
@@ -154,6 +155,10 @@ h3 {
     margin-top: 20px;
 }
 
+#video p {
+    margin-left: 30px;
+}
+
 #freelance {
     float: left;
     font-family: 'Open Sans', sans-serif;
@@ -176,4 +181,8 @@ h3 {
     font-weight: bold;
     margin-bottom: 40px;
     margin-top: 20px;
+}
+
+#freelance p {
+    margin-left: 30px;
 }

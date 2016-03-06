@@ -3,7 +3,8 @@
     margin: 0 auto;
 }
 
-h1 {
+
+/*h1 {
     font-family: 'Open Sans', sans-serif;
     padding-top:20px;
     font-size: 40px;
@@ -25,8 +26,13 @@ header nav a {
 
 nav a:hover {
     text-decoration: underline;
-}
+}*/
 
+.clearfix {
+    display: block;
+    overflow: auto;
+    content: '';
+}
 
 #hero {
     background: url('../img/hueco-tanks.jpg');
@@ -40,7 +46,7 @@ nav a:hover {
 #hero h2  {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    margin-top: 210px;
+    margin-top: 130px;
     font-size: 100px;
     color: #fff;
 }
@@ -50,7 +56,7 @@ nav a:hover {
     text-align: center;
     color: #fff;
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 45px;
     margin-bottom: 20px;
 }
 
@@ -67,7 +73,7 @@ nav a:hover {
 
 #about {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 #wild-child {
@@ -81,20 +87,26 @@ nav a:hover {
 
 #bio {
     font-family: 'Open Sans', sans-serif;
+    background-color: #F2F2F2;
+    margin-left: 35px;
+    padding-top: 1px;
+    padding-bottom: 68px;
 }
 
 h3 {
-   margin-left: 450px;
-    margin-top: 125px;
-    margin-right: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+   margin-left: 500px;
+    margin-top: 70px;
+    margin-right: 200px;
+    font-size: 25px;
+    font-weight: lighter;
 }
 
 #k {
-    background-color: #D4D4D4;
-    height: 470px;
+    background-color: #F2F2F2;
+    height: 500px;
     width: 100%;
     clear: both;
-    margin-top: 200px;
 }
 
 #links {
@@ -121,14 +133,14 @@ h3 {
 }
 
 #music h4 {
-    margin-left: 2px;
+    margin-left: 35px;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     margin-top: 20px;
 }
 
 #music p {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 #video {
@@ -149,14 +161,14 @@ h3 {
 }
 
 #video h4 {
-    margin-left: 100px;
-    font-weight: bold;
-    margin-bottom: 40px;
+    margin-left: 45px;
+    font-weight: bolder;
+    margin-bottom: 10px;
     margin-top: 20px;
 }
 
 #video p {
-    margin-left: 30px;
+    margin-left: 45px;
 }
 
 #freelance {
@@ -177,12 +189,28 @@ h3 {
 }
 
 #freelance h4 {
-    margin-left: 100px;
+    margin-left: 50px;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     margin-top: 20px;
 }
 
 #freelance p {
-    margin-left: 30px;
+    margin-left: 40px;
+}
+
+#education {
+    clear: both;
+    padding-top: 50px;
+    
+}
+
+#aca {
+    float: left;
+    
+}
+
+#hbu {
+    float: left;
+    margin-left: 300px;
 }

@@ -41,6 +41,10 @@ header p {
     padding-bottom: 30px;
 }
 
+#hw h2 {
+    font-family: 'pt serif', 'sans-serif';
+}
+
 .hw {
     text-decoration: underline;
     color: #000;

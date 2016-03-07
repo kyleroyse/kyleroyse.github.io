@@ -3,50 +3,31 @@
     margin: 0 auto;
 }
 
-
-/*h1 {
-    font-family: 'Open Sans', sans-serif;
-    padding-top:20px;
-    font-size: 40px;
-    float: left;
-    clear: both;
+#hero {
+    background: url('../img/snowy-cabin.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 800px;
 }
 
-header nav {
-    float: right;
-    padding-right: 40px;
-}
-
-header nav a {
+nav a {
     font-family: 'Open Sans', sans-serif;
+    float:right;
     text-decoration: none;
-    color: #000;
-    margin-left: 40px;
+    color: #fff;
+    margin-right: 35px;
+    padding-top: 35px;
+    font-size: 20px;
 }
 
 nav a:hover {
     text-decoration: underline;
-}*/
-
-.clearfix {
-    display: block;
-    overflow: auto;
-    content: '';
 }
 
-#hero {
-    background: url('../img/hueco-tanks.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 700px;
-    padding-top: 20px;
-    margin-top: 50px;
-}
-
-#hero h2  {
+h1  {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    margin-top: 130px;
+    padding-top: 196px;
     font-size: 100px;
     color: #fff;
 }
@@ -87,7 +68,7 @@ nav a:hover {
 
 #bio {
     font-family: 'Open Sans', sans-serif;
-    background-color: #F2F2F2;
+    background-color: #d1d1d1;
     margin-left: 35px;
     padding-top: 1px;
     padding-bottom: 68px;
@@ -103,21 +84,23 @@ h3 {
 }
 
 #k {
-    background-color: #F2F2F2;
-    height: 500px;
+    background-color: #d1d1d1;
+    height: 425px;
     width: 100%;
     clear: both;
+    padding-right: 100px;
+    margin-right: 100px;
 }
 
 #links {
     margin-left: 65px;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 #music {
     float: left;
     font-family: 'Open Sans', sans-serif;
-    margin-left: 75px;
+    margin-left: 150px;
     margin-bottom: 20px;
     margin-top: 20px;
     width: 20%;
@@ -207,10 +190,34 @@ h3 {
 
 #aca {
     float: left;
-    
+    padding-left: 115px;
 }
 
 #hbu {
     float: left;
     margin-left: 300px;
+}
+
+#contact {
+    background: url('../img/hueco-tanks.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    clear:both;
+    margin-top: 290px;
+}
+
+#contact h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 350px;
+}
+
+#contact a {
+    color: #fff;
+}
+
+#contact a:hover {
+    text-decoration: none;
 }

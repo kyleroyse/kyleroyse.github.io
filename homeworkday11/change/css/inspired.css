@@ -1,0 +1,99 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* @media (max-width: 640px) {
+    .container {
+        width:50%;
+        margin: 0 auto;
+    }
+}*/
+
+#hero {
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    height: 650px;
+}
+
+@media (max-width: 640px) {
+    #hero {
+        background: url(../img/bg2.jpg);
+        background-size: cover;
+        height: 400px;
+    }
+}
+
+#hero h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 50px;
+    padding-top: 250px;
+    padding-left: 45px;
+}
+
+@media (max-width: 640px) {
+     #hero h1 {
+        font-size: 50px;
+        padding-top: 100px;
+    }
+}
+
+#hero p {
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 45px;
+}
+
+ @media (max-width: 640px) {
+    #hero p {
+        font-size: 15px;
+    }
+}
+
+#values {
+    background-color: #ebebeb;
+    height: 300px;
+    width: 100%;
+}
+
+@media (max-width: 640px) {
+    #values {
+        height: 400px;
+    }
+}
+
+#blog {
+    float: left;
+    padding-left: 60px;
+    padding-top: 100px;
+    width: 40.1%;
+}
+
+@media (max-width: 640px) {
+    #blog {
+        float:none;
+        padding-top: 20px;
+        padding-left: 20px;
+        width: auto;
+    }
+}
+
+@media (max-width: 640px) {
+    #blog p {
+    }
+}
+
+#children {
+    float: right;
+    padding-right: 60px;
+    padding-top: 100px;
+}
+
+@media (max-width: 640px) {
+    #children {
+        float:none;
+        padding-left: 20px;
+    }
+}

@@ -1,0 +1,52 @@
+* {
+    font-family: sans-serif;
+}
+
+header {
+    background: url('http://bone.themanoid.com/images/office/03.jpg');
+    height: 850px;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 75px;
+    padding-top: 300px;
+    font-weight: 100;
+}
+
+main {
+    background: url('http://bone.themanoid.com/images/thumbs/07.png');
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+section {
+    background: url('http://bone.themanoid.com/images/thumbs/02.png');
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+#suit {
+    background: url('http://bone.themanoid.com/images/thumbs/03.png');
+    height: 450px;
+    width: 200px;
+    float: left;
+}
+
+#mountains {
+    background: url('http://bone.themanoid.com/images/thumbs/04.png');
+    height: 200px;
+    width: 200px;
+    clear: both;
+    float: left;
+}
+
+#buildings {
+    background: url('http://bone.themanoid.com/images/thumbs/05.png');
+    height: 200px;
+    width: 200px;
+    float: left;
+}

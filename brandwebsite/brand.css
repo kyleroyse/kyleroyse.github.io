@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0px;
     padding 0px;
 }
@@ -17,6 +17,17 @@ header {
     left: 0;
 }
 
+#navigation {
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    margin: 25px;
+}
+
+#navigation:hover {
+    text-decoration: underline;
+}
+
 .content {
     position: absolute;
     width: 100%;
@@ -33,7 +44,7 @@ header {
     font-size: 75px;
     text-transform: uppercase;
     font-weight: 300;
-    padding-top: 15%;
+    padding-top: 20%;
     margin-bottom: 10px;
 }
 

@@ -1,0 +1,13 @@
+body {
+    background: #ddd;
+    
+}
+
+.yellow-bg {
+    background: yellow;
+    height: 400px;
+}
+
+.gray-bg {
+    background: #d1d1d1;
+}

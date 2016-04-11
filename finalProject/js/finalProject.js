@@ -1,1 +1,1 @@
-<script>alert("Welcome to my website");</script>
+<script>window.alert("Welcome to my website");</script>

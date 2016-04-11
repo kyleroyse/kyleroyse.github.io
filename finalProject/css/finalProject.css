@@ -80,6 +80,39 @@ main {
     color: red;
 }
 
-.container, p {
-    padding-top: 15px;
+.fa-music {
+    color: aquamarine;
+}
+
+.fa-code-fork {
+    color: firebrick;
+}
+
+
+footer {
+    background-color: #1e1e1e;
+    height: 200px;
+    width: 100%;
+    
+}
+
+.fa-facebook-official {
+   color: #fff;
+   margin-left: 600px;
+    padding-top: 75px;
+}
+
+.fa-twitter-square {
+   color: #fff;
+    padding-top: 75px;
+}
+
+.fa-instagram {
+   color: #fff;
+    padding-top: 75px;
+}
+
+.fa-pinterest {
+   color: #fff;
+    padding-top: 75px;
 }

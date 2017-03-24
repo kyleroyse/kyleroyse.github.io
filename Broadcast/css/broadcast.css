@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ul {
     list-style-type: none;
     margin: 0px;
@@ -93,19 +94,49 @@ ul {
 li {
  float: right;
  margin: -10px;
+=======
+* {
+    color: black;
+}
+
+.nav {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+    }
+
+li {
+ float: right;
+>>>>>>> origin/master
 }
 
 .home {
     font-family: 'Fjalla One', sans-serif;
+<<<<<<< HEAD
     font-size: 60px;
     margin: -15px;
     line-height: 140px;
     display: block;
     height: auto;
+=======
+    float: left;
+    font-size: 45px;
+    margin: -15px;
+>>>>>>> origin/master
 }
 
 li a {
     display: block;
+<<<<<<< HEAD
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -123,12 +154,31 @@ li a:hover {
 
 .active {
     background-color: #fff;
+=======
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 25px;
+    
+}
+
+li a:hover {
+    background-color: #333;
+    outline-style: solid;
+    /*border: 3px solid #00ccff;*/
+    
+}
+
+.active {
+    background-color: #4caf50;
+>>>>>>> origin/master
 }
 
 .color {
     background-color: #fff;
 }
 
+<<<<<<< HEAD
 .radioWaves {
     margin: 200px 0;
     display: block;
@@ -148,23 +198,54 @@ li a:hover {
 .socialMedia {
     align-content: center;
     text-align: center;
+=======
+.img {
+    color: white;
+    border-radius: 50px/15px;
+    height: 175px;
+    float: right;
+    padding-right: 625px;
+    padding-top: 175px;
+}
+
+h1 {
+    font-family: sans-serif;
+    padding-top: 40px;
+    float: left;
+    margin-left: 200px;
+    color: #fff;
+    font-size: 45px;
+}
+
+.footer {
+    padding-top: 525px;
+>>>>>>> origin/master
 }
 
 .fa-facebook {
     color: #3b5998;
     font-size: 50px;
+<<<<<<< HEAD
     margin-right: 10px;
+=======
+    padding-left: 635px;
+>>>>>>> origin/master
 }
 
 .fa-instagram {
     color: #fff;
     font-size: 50px;
+<<<<<<< HEAD
     margin-right: 10px;
+=======
+    padding-left: 15px;
+>>>>>>> origin/master
 }
 
 .fa-twitter {
     color: #4099ff;
     font-size: 50px;
+<<<<<<< HEAD
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -178,3 +259,7 @@ li a:hover {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) {  }
+=======
+    padding-left: 15px;
+}
+>>>>>>> origin/master

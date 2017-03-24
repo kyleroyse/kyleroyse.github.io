@@ -1,0 +1,27 @@
+header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.responsive {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Amiko', sans-serif;
+    font-size: 75px;
+}
+
+.logo {
+    height: 45px;
+    width: 85px;
+}
+
+img {
+    width: 100px;
+    height: 65px;
+}

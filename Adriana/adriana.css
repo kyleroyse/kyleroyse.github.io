@@ -1,0 +1,32 @@
+* {
+    background-color: black;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #fff;
+    float: right;
+    padding-right: 450px;
+    padding-top: 50px;
+    
+}
+
+p {
+    font-family: sans-serif;
+    color: #fff;
+    float: right;
+    clear: both;
+    padding-right: 450px;
+    padding-top: 20px;
+}
+
+img {
+    height: 800px;
+    width: 600px;
+}
+
+i {
+    color:#fff;
+    float: right;
+    clear: both;
+}

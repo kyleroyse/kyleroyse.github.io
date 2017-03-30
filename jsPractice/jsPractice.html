@@ -4,6 +4,21 @@
     <title>JavaScript in 24 Hours</title>
     <link rel="stylesheet" src="jsPractice.css">
     <script src="jsPractice.js"></script>
+        <script>
+      function sayHello() {
+          alert("Hello!");
+      } 
+        function buttonReport (buttonId, buttonName, buttonValue){
+            // information about the id of the button
+            var userMessage1 = "Button Id: " + buttonId + "\n";
+            // then about the button name
+            var userMessage2 = "Button name: " + buttonName + "\n";
+            // and the button value
+            var userMessage3 = "Button value: " + buttonValue;
+            //alert the user
+            alert(userMessage1 + userMessage2 + userMessage3);
+        }
+    </script>
 </head>
 <body>
     <input type="button" onclick= "sayHello()" value="Click Me" />
@@ -11,10 +26,8 @@
     <input type="button" onclick="alert('You clicked the button!')" value="Click Me" />
     <br>
     <img src="img/zion.jpg" alt="image 1" onmouseover="alert(this.title)" onmouseout="this.src= 'img/zion.jpg';" />
-    <script>
-      function sayHello() {
-          alert("Hello!");
-      } 
-    </script>
+    <br>
+    <input type="button" onclick="buttonReport(this.id, this.name this.value)" id="id1" name="Button 1" value = "something"  />
+
 </body>
 </html>

@@ -24,6 +24,16 @@ body {
     margin-top: -30px;
 }
 
+@media screen and (max-width: 1240px) {
+    .navContainer * {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    justify-content: space-around;
+}
+
 .navContainer * a:hover {
     font-size: 25px;
     color: #ffff33;
@@ -93,10 +103,15 @@ body {
 
 .fa-facebook-official {
     color: #3b5998;
-    font-size: 50px;
     margin-right: 20px;
     margin left: 50px;
     font-size: 65px;
+}
+
+@media screen and (max-width: 1240px) {
+    .fa-facebook-official {
+        font-size: 46px;
+    }
 }
 
 .fa-instagram {
@@ -105,7 +120,19 @@ body {
     margin-right: 20px;
 }
 
+@media screen and (max-width: 1240px) {
+    .fa-instagram {
+     font-size: 46px;   
+    }
+}
+
 .fa-twitter-square {
     color: #4099ff;
     font-size: 65px;
+}
+
+@media screen and (max-width: 1240px) {
+    .fa-twitter-square {
+     font-size: 46px;   
+    }
 }

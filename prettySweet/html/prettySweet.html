@@ -33,53 +33,79 @@
         ga('send', 'pageview');
     </script>
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <!-- Local Sites -->
     <link rel="stylesheet" href="/prettySweet/css/prettySweet.css">
     <script src="/prettySweet/js/"></script>
 </head>
 
-<body>
+<body id="body">
     <header>
-        <!-- logo -->
-        <div class="logo">
-            <img href="/prettySweet/html/prettySweet.html" src="">
-        </div>
-        
-        <div class="social-media-header">
-            <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-        </div>
+        <div class="header">
+            <!-- logo -->
+            <div class="logo">
+                <img href="/prettySweet/html/prettySweet.html" src="">
+            </div>
+            <!-- Social Media Icons -->
+            <div class="social-media-header">
+                <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </div>
 
-        <!-- Navigation -->
-        <div class="navbar-main">
-            <ul class="navbar">
-                <li id="video"><a href="/prettySweet/html/video.html">Video Production</a></li>
-                <li id="audio"><a href="/prettySweet/html/audio.html">Audio Production</a></li>
-                <li id="web"><a href="/prettySweet/html/web.html">Web Design</a></li>
-                <li id="commDesign"><a href="/prettySweet/html/comm.html">Communication Design</a></li>
-            </ul>
+            <!-- Navigation -->
+            <div class="navbar-main">
+                <ul class="navbar">
+                    <li class="nav" id="video"><a class="links" href="/prettySweet/html/video.html">Video Production</a></li>
+                    <li class="nav" id="audio"><a class="links" href="/prettySweet/html/audio.html">Audio Production</a></li>
+                    <li class="nav" id="web"><a class="links" href="/prettySweet/html/web.html">Web Design</a></li>
+                    <li class="nav" id="commDesign"><a class="links" href="/prettySweet/html/comm.html">Communication Design</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
         <div class="main-heading">
             <h1>Pretty Sweet Productions</h1>
-            <p>We are a group of like-minded, multidisciplinary professionals specializing in <a href="/prettySweet/html/video.html">video production</a>, <a href="/prettySweet/html/audio.html">audio production</a>, and <a href="/prettySweet/html/web.html">web design</a>. Let us capture your best image and communicate that strong brand most effectively to your online and television audiences.</p>
+            <br>
+            <div class="description-parent">
+                <p class="description">We are a group of like-minded, multidisciplinary professionals specializing in <a href="/prettySweet/html/video.html">video production</a>, <a href="/prettySweet/html/audio.html">audio production</a>, and <a href="/prettySweet/html/web.html">web design</a>. Let us capture your best image and effectively communicate that strong brand to your online and television audiences.</p>
+            </div>
+        </div>
+        <div class="email">
+            <p class="newsletter">Join our newsletter
+                <i class="fa fa-hand-o-right" aria-hidden="true"></i></p>
+            <input class="text-field" type="email" placeholder="your email address..." required="required">
+            <input type="submit" value="→" class="submit">
         </div>
     </main>
     <footer>
-        <div class="social-media-footer">
-            <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-        </div>
-        <div class="email">
-            <p>Join our newsletter
-                <i class="fa fa-hand-o-down" aria-hidden="true"></i></p>
-            <input class="text-field" type="email" placeholder="your email address..." required="required">
-            <input type="submit" value="→" class="submit">
+        <div class="footer">
+            <!-- 
+            <div class="social-media-footer">
+                <a class="social" href="#"><i  class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a class="social" href="#"><i  class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a class="social" href="#"><i  class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a class="social" href="#"><i  class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </div>
+            -->
+            <div>
+                <h2>Contact Us</h2>
+            </div>
+            <div class="envelope">
+                <a href="#"><i class="fa fa-envelope" aria-hidden="true"> orangeanimaofficial@gmail.com</i></a>
+
+            </div>
+            <br>
+            <div class="envelope">
+                <a href="#"><i class="fa fa-phone" aria-hidden="true">(832) 359-2346</i></a>
+            </div>
+            <div class="envelope">
+                <a href="#"><i class="fa fa-map-marker" aria-hidden="true">7105 Tierra Alta Avenue<br> El Paso, TX, 79912</i></a>
+            </div>
         </div>
     </footer>
     <script>

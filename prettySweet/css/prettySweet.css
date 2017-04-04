@@ -1,0 +1,174 @@
+#body{
+    width: 98%;
+}
+
+header {
+    margin-right: 9%;
+    margin-left: 9%;
+}
+
+.header {
+    margin: 55px 0px 75px 0px;
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 1050px) {
+    .header {
+        
+    }
+}
+
+/* logo */
+
+.logo {
+    
+}
+
+/* Social Media Icons */
+
+.social-media-header {
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+
+.fa-facebook-official {
+    color: #3b5998;
+    margin-right: 15px;
+}
+
+.fa-instagram {
+    color: #000000;
+    margin-right: 15px;
+}
+
+.fa-twitter-square {
+    color: #4099FF;
+    margin-right: 15px;
+}
+
+.fa-youtube-play {
+    color: #cc181e;
+    margin-right: 15px;
+}
+
+/* Navigation */
+
+.navbar-main {
+    
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 25px;
+    margin-top: -47px;
+}
+
+.nav {
+    font-style: none;
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+.links {
+    color: #000;
+}
+
+/* Heading */
+
+.main-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: salmon;
+    margin-right: 9%;
+    margin-left: 9%;
+}
+
+.description-parent {
+    background-color: aquamarine;
+    margin-right: 9%;
+    margin-left: 9%;
+}
+
+.description {
+    margin-right: 33%;
+    margin-left: 33%;
+}
+
+/* Newsletter */
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 45px;
+    background-color: salmon;
+    margin-right: 9%;
+    margin-left: 9%;
+}
+
+.newsletter {
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+.footer {
+    background-color: aquamarine;
+    display: flex;
+    margin-top: 125px;
+    margin-right: 9%;
+    margin-left: 9%;
+    justify-content: center;
+}
+
+.footer, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+.social-media-footer {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    justify-content: flex-end;
+}
+*/
+
+h2 {
+   margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.envelope {
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.fa-envelope {
+    color: #000;
+    margin-right: 10px;
+}
+
+.fa-phone {
+    color: #000;
+    margin-right: 10px;
+}
+
+.fa-map-marker {
+    color: #000;
+    margin-right: 10px;
+}

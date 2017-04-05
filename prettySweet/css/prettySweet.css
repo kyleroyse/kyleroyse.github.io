@@ -22,36 +22,43 @@ header {
 /* Navigation */
 
 .navbar-main {
-    
+    border: 3px solid salmon;
+    max-height: 50px;
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 25px;
+    margin-right: 35px;
     margin-top: 30px;
+    
 }
 
 .nav {
     font-style: none;
     margin-left: 29px;
+    
 }
 
 #video {
-    margin-top: 13px;
+    margin-top: -18px;
+    
 }
 
 #audio {
-    margin-top: 13px;
+    margin-top: -18px;
+    
 }
 
 #web {
-    margin-top: 13px;
+    margin-top: -18px;
+    
 }
 
 #commDesign {
-    margin-top: 13px;
+    margin-top: -18px;
+    
 }
 
 .links {
@@ -99,14 +106,12 @@ h1 {
     margin-right: 9%;
     margin-left: 62%;
     height: 120px;
+    border: 5px solid aquamarine;
+    border-bottom: hidden;
 }
 
 .newsletter {
     margin-top: 47px;
-    border-style: solid;
-    border-width: thin;
-    border-color: black;
-    border-right: hidden;
     margin-bottom: 47px;
     justify-content: center;
 }
@@ -196,7 +201,7 @@ h2 {
 }
 
 .social-media-header a:hover {
-    text-shadow: 4px 4px 6px #000000;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 /* CopyRight */
@@ -212,4 +217,6 @@ h2 {
     align-items: center;
     vertical-align: middle;
     text-align: center;
+    margin-left: 45%;
+    margin-right: 55%;
 }

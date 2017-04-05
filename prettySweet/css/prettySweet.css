@@ -72,7 +72,7 @@ header {
     flex-direction: column;
     justify-content: center;
     margin-top: -40px;
-    margin-bottom: 90px;
+    margin-bottom: 5px;
 }
 
 h1 {
@@ -84,15 +84,59 @@ h1 {
     border-radius: 30px;
 }
 
+.yes {
+    display: flex;
+    flex-direction: row;
+}
+
 .description-parent {
     background-color: aquamarine;
-    margin-right: 50%;
     border-bottom-right-radius: 30px;
+    height: 168px;
+    width: 715px;
 }
 
 .description {
     width: 273px;
     margin: 13px 425px 13px;
+}
+
+/* Social Media Icons */
+
+.ok {
+    margin-left: 570px;
+}
+
+.social-media-header {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.social-media-header a:hover {
+    text-shadow: 0px 0px 0px #000000;
+}
+
+.fa-facebook-official {
+    color: #3b5998;
+    margin-right: 15px;
+}
+
+.fa-instagram {
+    color: #000000;
+    margin-right: 15px;
+}
+
+.fa-twitter-square {
+    color: #4099FF;
+    margin-right: 15px;
+}
+
+.fa-youtube-play {
+    color: #cc181e;
+    margin-right: 15px;
 }
 
 /* Newsletter */
@@ -132,7 +176,7 @@ h1 {
     margin-right: 9%;
     margin-left: 9%;
     justify-content: flex-start;
-    height: 220px;
+    height: 214px;
     border-top-left-radius: 30px;
 }
 
@@ -143,18 +187,24 @@ h1 {
 .contact {
     display: flex;
     flex-direction: row;
+    margin-left: 5px;
 }
 
 h2 {
    justify-content: flex-start;
     display: flex;
-    margin-top: 100px;
-    margin-left: 55px;
+    margin-top: 70px;
+    margin-left: 25px;
 }
 
 .envelope {
     margin-left: 25px;
-    margin-top: 65px;
+    margin-top: 38px;
+}
+
+.envelope a:hover {
+    text-decoration: underline;
+    display: visible;
 }
 
 .fa-envelope {
@@ -171,48 +221,6 @@ h2 {
     margin-right: 10px;
 }
 
-/* Social Media Icons */
-
-.social-media-header {
-    font-size: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-top: 6px;
-    margin-left: 25px;
-    text-shadow: 1px 1px 4px #000000;
-}
-
-.social-media-header a:hover {
-    text-shadow: 0px 0px 0px #000000;
-}
-
-@media screen and (max-width: 940px) {
-    .social-media-header {
-        display: flex;
-    }
-}
-
-.fa-facebook-official {
-    color: #3b5998;
-    margin-right: 15px;
-}
-
-.fa-instagram {
-    color: #000000;
-    margin-right: 15px;
-}
-
-.fa-twitter-square {
-    color: #4099FF;
-    margin-right: 15px;
-}
-
-.fa-youtube-play {
-    color: #cc181e;
-    margin-right: 15px;
-}
-
 /* CopyRight */
 .copyright {
     display: flex;
@@ -222,7 +230,7 @@ h2 {
 
 .copyright-text {
     justify-content: flex-end;
-    margin-top: 175px;
+    margin-top: 170px;
     align-items: flex-end;
     vertical-align: middle;
     margin-left: 500px;

@@ -5,6 +5,7 @@
 header {
     margin-right: 9%;
     margin-left: 9%;
+    
 }
 
 .header {
@@ -34,11 +35,23 @@ header {
 
 .nav {
     font-style: none;
-    margin-left: 25px;
-    border-style: solid;
-    border-width: thin;
-    border-color: black;
-    
+    margin-left: 29px;
+}
+
+#video {
+    margin-top: 13px;
+}
+
+#audio {
+    margin-top: 13px;
+}
+
+#web {
+    margin-top: 13px;
+}
+
+#commDesign {
+    margin-top: 13px;
 }
 
 .links {
@@ -61,11 +74,13 @@ h1 {
     margin-right: 9%;
     margin-left: 9%;
     height: 48px;
+    border-radius: 30px;
 }
 
 .description-parent {
     background-color: aquamarine;
     margin-right: 50%;
+    border-bottom-right-radius: 30px;
 }
 
 .description {
@@ -87,8 +102,13 @@ h1 {
 }
 
 .newsletter {
-    margin-right: 10px;
-    margin-top: 50px;
+    margin-top: 47px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    border-right: hidden;
+    margin-bottom: 47px;
+    justify-content: center;
 }
 
 .text-field {
@@ -104,7 +124,6 @@ h1 {
 .footer {
     background-color: aquamarine;
     display: flex;
-    margin-top: 95px;
     margin-right: 9%;
     margin-left: 9%;
     justify-content: center;
@@ -176,7 +195,11 @@ h2 {
     margin-right: 15px;
 }
 
+.social-media-header a:hover {
+    text-shadow: 4px 4px 6px #000000;
+}
 
+/* CopyRight */
 .copyright {
     display: flex;
     flex-direction: row;

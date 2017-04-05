@@ -8,14 +8,8 @@ header {
 }
 
 .header {
-    margin: 55px 0px 75px 0px;
+    margin: 55px 0px 75px 524px;
     background-color: aquamarine;
-}
-
-@media screen and (max-width: 1050px) {
-    .header {
-        
-    }
 }
 
 /* logo */
@@ -31,10 +25,15 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 15px;
+    margin-top: 6px;
     margin-left: 25px;
 }
 
+@media screen and (max-width: 940px) {
+    .social-media-header {
+        display: flex;
+    }
+}
 
 .fa-facebook-official {
     color: #3b5998;
@@ -67,7 +66,7 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 25px;
-    margin-top: -47px;
+    margin-top: 30px;
 }
 
 .nav {
@@ -86,6 +85,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -40px;
 }
 
 h1 {
@@ -97,13 +97,13 @@ h1 {
 
 .description-parent {
     background-color: aquamarine;
-    margin-right: 9%;
+    margin-right: 35%;
     margin-left: 9%;
 }
 
 .description {
-    margin-right: 33%;
-    margin-left: 33%;
+    width: 273px;
+    margin: 6px 250px 13px;
 }
 
 /* Newsletter */
@@ -115,7 +115,7 @@ h1 {
     margin-top: 45px;
     background-color: salmon;
     margin-right: 9%;
-    margin-left: 9%;
+    margin-left: 62%;
 }
 
 .newsletter {
@@ -135,18 +135,6 @@ h1 {
 .footer, a {
     font-family: 'Roboto', sans-serif;
 }
-
-/*
-.social-media-footer {
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-}
-
-.social {
-    justify-content: flex-end;
-}
-*/
 
 h2 {
    margin-right: 15px;

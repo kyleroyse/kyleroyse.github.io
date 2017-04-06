@@ -1,11 +1,37 @@
-#body{
+.jumbotron {
+    margin-top: -97px;
+}
+
+.background-wrap {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+#video-bg-elem {
+    position: absolute;
+    top: 97px;
+    left: -129px;
+    min-height: 100%;
+    min-width: 125%;
+    height: 865px;
+}
+
+* {
+    position: relative;
+}
+
+body{
     width: 98%;
 }
 
 header {
     margin-right: 9%;
-    margin-left: 9%;
-    
+    margin-left: 9%;  
 }
 
 .header {
@@ -32,7 +58,7 @@ header {
     justify-content: flex-end;
     margin-right: 35px;
     margin-top: 30px;
-    
+    position: relative;
 }
 
 .nav {
@@ -93,18 +119,22 @@ h1 {
     background-color: aquamarine;
     border-bottom-right-radius: 30px;
     height: 168px;
-    width: 715px;
+    width: 361px;
+    margin-left: 295px;
+    margin-top: -35px;
+    border: 5px solid salmon;
+    border-top: hidden;
 }
 
 .description {
-    width: 273px;
-    margin: 13px 425px 13px;
+    width: 268px;
+    margin: 11px 49px 0px;
 }
 
 /* Social Media Icons */
 
 .ok {
-    margin-left: 570px;
+    margin-left: 630px;
 }
 
 .social-media-header {
@@ -112,7 +142,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    text-shadow: 1px 1px 4px #000000;
+    
 }
 
 .social-media-header a:hover {
@@ -122,84 +152,101 @@ h1 {
 .fa-facebook-official {
     color: #3b5998;
     margin-right: 15px;
+    text-shadow: 1px 1px 4px salmon;
+}
+
+.fa-facebook-official a:hover {
+    text-shadow: hidden;
 }
 
 .fa-instagram {
     color: #000000;
     margin-right: 15px;
+    text-shadow: 1px 1px 4px aquamarine;
+}
+
+.fa-instagram a:hover {
+    text-shadow: hidden;
 }
 
 .fa-twitter-square {
     color: #4099FF;
     margin-right: 15px;
+    text-shadow: 1px 1px 4px salmon;
+}
+
+.fa-twitter-square a:hover {
+    text-shadow: hidden;
 }
 
 .fa-youtube-play {
     color: #cc181e;
     margin-right: 15px;
+    text-shadow: 1px 1px 4px aquamarine;
+}
+
+.fa-youtube-play a:hover {
+    text-shadow: hidden;
 }
 
 /* Newsletter */
-
+/*
 .email {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 45px;
-    background-color: salmon;
-    margin-right: 9%;
-    margin-left: 62%;
-    height: 120px;
-    border: 5px solid aquamarine;
+    height: 194px;
     border-bottom: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    margin-top: 10px;
 }
 
 .newsletter {
-    margin-top: 47px;
-    margin-bottom: 47px;
     justify-content: center;
+    margin-bottom: 0px;
+    align-self: center;
 }
 
 .text-field {
-    margin-top: 47px;
-    margin-bottom: 47px;
+    margin-top: 78px;
+    margin-bottom: 78px;
 }
 
 .submit {
-    margin-top: 47px;
-    margin-bottom: 47px;
+    margin-top: 78px;
+    margin-bottom: 78px;
 }
 
-.footer {
+*/
+
+/* footer */
+
+footer {
     background-color: aquamarine;
     display: flex;
     margin-right: 9%;
     margin-left: 9%;
-    justify-content: flex-start;
-    height: 214px;
+    margin-top: 165px;
+    
+    height: 232px;
     border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
-.footer, a {
-    font-family: 'Roboto', sans-serif;
-}
 
 .contact {
     display: flex;
-    flex-direction: row;
-    margin-left: 5px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 84px;
+    margin-top: -15px;
 }
+
 
 h2 {
-   justify-content: flex-start;
+    justify-content: flex-start;
     display: flex;
-    margin-top: 70px;
-    margin-left: 25px;
-}
-
-.envelope {
-    margin-left: 25px;
-    margin-top: 38px;
 }
 
 .envelope a:hover {
@@ -209,11 +256,14 @@ h2 {
 
 .fa-envelope {
     color: #000;
+    margin-top: 22px;
 }
 
 .fa-phone {
     color: #000;
     margin-right: 10px;
+    margin-top: 22px;
+    
 }
 
 .fa-map-marker {
@@ -221,18 +271,13 @@ h2 {
     margin-right: 10px;
 }
 
+
 /* CopyRight */
 .copyright {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .copyright-text {
     justify-content: flex-end;
-    margin-top: 170px;
-    align-items: flex-end;
-    vertical-align: middle;
-    margin-left: 500px;
-
 }

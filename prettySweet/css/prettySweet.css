@@ -19,6 +19,7 @@
     min-width: 125%;
     height: 920px;
     width: 1110px;
+    filter: opacity(20%);
 }
 
 * {
@@ -63,6 +64,7 @@ header {
     justify-content: flex-end;
     position: relative;
     height: 75px;
+    margin-right: 39px;
 }
 
 .nav {
@@ -124,7 +126,7 @@ header {
 
 .links {
     color: #000;
-    margin-right: 5px;
+    margin-right: -5px;
 }
 
 .links:hover {

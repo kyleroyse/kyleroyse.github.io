@@ -1,5 +1,5 @@
 .jumbotron {
-    margin-top: -103px;
+    margin-top: -136px;
 }
 
 .background-wrap {
@@ -74,44 +74,52 @@ header {
     margin-top: 45px;
     border: 3px solid aquamarine;
     background-color: aquamarine;
+    border-radius: 5px;
 }
 
 #video:hover {
     background-color: salmon;
     border: 3px solid salmon;
+    border-radius: 5px;
 }
 
 #audio {
     margin-top: 45px;
     border: 3px solid aquamarine;
     background-color: aquamarine;
+    border-radius: 5px;
 }
 
 #audio:hover {
     background-color: salmon;
     border: 3px solid salmon;
+    border-radius: 5px;
 }
 
 #web {
     margin-top: 45px;
     border: 3px solid aquamarine;
     background-color: aquamarine;
+    border-radius: 5px;
 }
 
 #web:hover {
     background-color: salmon;
     border: 3px solid salmon;
+    border-radius: 5px;
 }
 
 #commDesign {
     margin-top: 45px;
     border: 3px solid aquamarine;
     background-color: aquamarine;
+    border-radius: 5px;
 }
 
 #commDesign:hover {
     background-color: salmon;
     border: 3px solid salmon;
+    border-radius: 5px;
 }
 
 .links {
@@ -234,7 +242,7 @@ h1 {
     border-bottom: hidden;
     border-right: hidden;
     border-top: hidden;
-    margin-top: 321px;
+    margin-top: 293px;
     margin-left: 220px;
     background-color: aquamarine;
     align-items: center;
@@ -249,9 +257,13 @@ h1 {
     align-self: center;
 }
 
-.text-field {}
+.text-field {
+    
+}
 
-.submit {}
+.submit {
+    
+}
 
 
 /* footer */
@@ -261,7 +273,7 @@ footer {
     flex-direction: row;
     margin-right: 9%;
     margin-left: 9%;
-    margin-top: 35px;
+    margin-top: 7px;
     height: 255px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -284,12 +296,14 @@ h2 {
     justify-content: flex-start;
     display: flex;
     flex-direction: row;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 15px;
     background-color: aquamarine;
     border: 5px solid aquamarine;
     border-top-color: aquamarine;
     margin-right: 10px;
     margin-bottom: 27px;
+    height: 65px;
+    align-items: center;
 }
 
 .fa-envelope {
@@ -343,14 +357,13 @@ p {
     text-decoration: underline;
 }
 
-
 /* CopyRight */
 
 .copyright {
     display: flex;
     flex-direction: row;
     margin-left: 600px;
-    margin-top: 200px;
+    margin-top: 220px;
 }
 
 .copyright-text {

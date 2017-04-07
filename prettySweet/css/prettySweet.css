@@ -62,37 +62,56 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     position: relative;
-    background-color:aquamarine;
-    border-top-left-radius: 26px;
-    border-top-right-radius: 24px;
-    height: 105px;
+    height: 75px;
 }
 
 .nav {
     font-style: none;
-    margin-left: 29px;
+    margin-left: 28px;
 }
 
 #video {
     margin-top: 45px;
-    margin-right: 5px;
+    border: 3px solid aquamarine;
+    background-color: aquamarine;
+}
+
+#video:hover {
+    background-color: salmon;
+    border: 3px solid salmon;
 }
 
 #audio {
     margin-top: 45px;
-    margin-right: 5px;
+    border: 3px solid aquamarine;
+    background-color: aquamarine;
+}
+
+#audio:hover {
+    background-color: salmon;
+    border: 3px solid salmon;
 }
 
 #web {
     margin-top: 45px;
-    margin-right: 5px;
-    
+    border: 3px solid aquamarine;
+    background-color: aquamarine;
+}
+
+#web:hover {
+    background-color: salmon;
+    border: 3px solid salmon;
 }
 
 #commDesign {
     margin-top: 45px;
-    margin-right: 5px;
-    
+    border: 3px solid aquamarine;
+    background-color: aquamarine;
+}
+
+#commDesign:hover {
+    background-color: salmon;
+    border: 3px solid salmon;
 }
 
 .links {
@@ -103,8 +122,6 @@ header {
 .links:hover {
     background-color: salmon;
     text-decoration: none;
-    border-radius: 10px;
-    border: 0px solid salmon;
 }
 
 /* Heading */
@@ -156,7 +173,7 @@ h1 {
 .ok {
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 
 .social-media-header {
@@ -228,6 +245,7 @@ h1 {
 .newsletter {
     justify-content: center;
     margin-bottom: 0px;
+     padding-left: 10px;
     align-self: center;
 }
 

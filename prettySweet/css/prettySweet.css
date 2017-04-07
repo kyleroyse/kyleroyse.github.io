@@ -25,14 +25,14 @@
     position: relative;
 }
 
-body{
+body {
     width: 98%;
     margin-top: 35px;
 }
 
 header {
     margin-right: 9%;
-    margin-left: 9%;  
+    margin-left: 9%;
 }
 
 .header {
@@ -40,11 +40,11 @@ header {
     height: 100px;
 }
 
+
 /* logo */
 
-.logo {
-    
-}
+.logo {}
+
 
 /* Navigation */
 
@@ -124,6 +124,7 @@ header {
     text-decoration: none;
 }
 
+
 /* Heading */
 
 .main-heading {
@@ -150,6 +151,7 @@ h1 {
     margin-bottom: -87px;
 }
 
+
 /* Description Paragraph */
 
 .description-parent {
@@ -167,6 +169,7 @@ h1 {
     width: 268px;
     margin: 11px 49px 0px;
 }
+
 
 /* Social Media Icons */
 
@@ -190,7 +193,6 @@ h1 {
 
 .fa-facebook-official {
     color: #3b5998;
-    
 }
 
 .fa-facebook-official a:hover {
@@ -199,7 +201,6 @@ h1 {
 
 .fa-instagram {
     color: #000000;
-    
 }
 
 .fa-instagram a:hover {
@@ -208,7 +209,6 @@ h1 {
 
 .fa-twitter-square {
     color: #4099FF;
-    
 }
 
 .fa-twitter-square a:hover {
@@ -217,12 +217,12 @@ h1 {
 
 .fa-youtube-play {
     color: #cc181e;
-    
 }
 
 .fa-youtube-play a:hover {
     text-shadow: hidden;
 }
+
 
 /* Newsletter */
 
@@ -236,7 +236,7 @@ h1 {
     border-top: hidden;
     margin-top: 321px;
     margin-left: 220px;
-    background-color:aquamarine;
+    background-color: aquamarine;
     align-items: center;
     border: 5px solid salmon;
     border-bottom: hidden;
@@ -245,17 +245,14 @@ h1 {
 .newsletter {
     justify-content: center;
     margin-bottom: 0px;
-     padding-left: 10px;
+    padding-left: 10px;
     align-self: center;
 }
 
-.text-field {
-   
-}
+.text-field {}
 
-.submit {
-   
-}
+.submit {}
+
 
 /* footer */
 
@@ -278,28 +275,26 @@ footer {
 
 .contact {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    margin-left: 84px;
-    margin-top: -14px;
+    align-items: center;
 }
-
 
 h2 {
     justify-content: flex-start;
     display: flex;
-    border-bottom-left-radius: 10px;
+    flex-direction: row;
     border-bottom-right-radius: 10px;
-    margin-top: 4px;
-    margin-bottom: 29px;
     background-color: aquamarine;
     border: 5px solid aquamarine;
     border-top-color: aquamarine;
+    margin-right: 10px;
+    margin-bottom: 27px;
 }
 
 .fa-envelope {
     color: #000;
-    margin-top: 10px;    
+    margin-top: 10px;
     border: 10px solid salmon;
     border-radius: 30px;
     background-color: salmon;
@@ -308,15 +303,21 @@ h2 {
 .fa-envelope:hover {
     background-color: aquamarine;
     border: 10px solid aquamarine;
+    text-decoration: underline;
+}
+
+p {
+    font-family: sans-serif
 }
 
 .addresses {
-    margin-top: -20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 .fa-phone {
     color: #000;
-    margin-top: 22px;
+    margin-top: 15px;
     border: 10px solid salmon;
     border-radius: 30px;
     background-color: salmon;
@@ -325,6 +326,7 @@ h2 {
 .fa-phone:hover {
     background-color: aquamarine;
     border: 10px solid aquamarine;
+    text-decoration: underline;
 }
 
 .fa-map-marker {
@@ -332,13 +334,16 @@ h2 {
     border: 10px solid salmon;
     border-radius: 30px;
     background-color: salmon;
-
+    margin-top: 15px;
 }
 
 .fa-map-marker:hover {
     background-color: aquamarine;
     border: 10px solid aquamarine;
+    text-decoration: underline;
 }
+
+
 /* CopyRight */
 
 .copyright {
@@ -349,5 +354,5 @@ h2 {
 }
 
 .copyright-text {
-   justify-content: flex-end; 
+    justify-content: flex-end;
 }

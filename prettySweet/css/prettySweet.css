@@ -1,5 +1,5 @@
 .jumbotron {
-    margin-top: -97px;
+    margin-top: -103px;
 }
 
 .background-wrap {
@@ -14,11 +14,11 @@
 
 #video-bg-elem {
     position: absolute;
-    top: 97px;
     left: -129px;
     min-height: 100%;
     min-width: 125%;
-    height: 865px;
+    height: 920px;
+    width: 1110px;
 }
 
 * {
@@ -27,6 +27,7 @@
 
 body{
     width: 98%;
+    margin-top: 35px;
 }
 
 header {
@@ -35,8 +36,8 @@ header {
 }
 
 .header {
-    margin: 55px 0px 75px 524px;
-    background-color: aquamarine;
+    margin: 0px 0px 27px 509px;
+    height: 100px;
 }
 
 /* logo */
@@ -48,47 +49,62 @@ header {
 /* Navigation */
 
 .navbar-main {
-    border: 3px solid salmon;
-    max-height: 50px;
+    border: 5px solid salmon;
+    border-radius: 30px;
+    margin-top: -2px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 112px;
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 35px;
-    margin-top: 30px;
     position: relative;
+    background-color:aquamarine;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 24px;
+    height: 105px;
 }
 
 .nav {
     font-style: none;
     margin-left: 29px;
-    
 }
 
 #video {
-    margin-top: -18px;
-    
+    margin-top: 45px;
+    margin-right: 5px;
 }
 
 #audio {
-    margin-top: -18px;
-    
+    margin-top: 45px;
+    margin-right: 5px;
 }
 
 #web {
-    margin-top: -18px;
+    margin-top: 45px;
+    margin-right: 5px;
     
 }
 
 #commDesign {
-    margin-top: -18px;
+    margin-top: 45px;
+    margin-right: 5px;
     
 }
 
 .links {
     color: #000;
+    margin-right: 5px;
+}
+
+.links:hover {
+    background-color: salmon;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 0px solid salmon;
 }
 
 /* Heading */
@@ -108,19 +124,23 @@ h1 {
     margin-left: 9%;
     height: 46px;
     border-radius: 30px;
+    border-top-right-radius: 0px;
 }
 
 .yes {
     display: flex;
     flex-direction: row;
+    margin-bottom: -87px;
 }
+
+/* Description Paragraph */
 
 .description-parent {
     background-color: aquamarine;
     border-bottom-right-radius: 30px;
     height: 168px;
     width: 361px;
-    margin-left: 295px;
+    margin-left: 280px;
     margin-top: -35px;
     border: 5px solid salmon;
     border-top: hidden;
@@ -134,7 +154,9 @@ h1 {
 /* Social Media Icons */
 
 .ok {
-    margin-left: 630px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
 }
 
 .social-media-header {
@@ -142,17 +164,16 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    
+    margin-bottom: 200px
 }
 
 .social-media-header a:hover {
-    text-shadow: 0px 0px 0px #000000;
+    text-shadow: 4px 4px 6px #000000;
 }
 
 .fa-facebook-official {
     color: #3b5998;
-    margin-right: 15px;
-    text-shadow: 1px 1px 4px salmon;
+    
 }
 
 .fa-facebook-official a:hover {
@@ -161,8 +182,7 @@ h1 {
 
 .fa-instagram {
     color: #000000;
-    margin-right: 15px;
-    text-shadow: 1px 1px 4px aquamarine;
+    
 }
 
 .fa-instagram a:hover {
@@ -171,8 +191,7 @@ h1 {
 
 .fa-twitter-square {
     color: #4099FF;
-    margin-right: 15px;
-    text-shadow: 1px 1px 4px salmon;
+    
 }
 
 .fa-twitter-square a:hover {
@@ -181,8 +200,7 @@ h1 {
 
 .fa-youtube-play {
     color: #cc181e;
-    margin-right: 15px;
-    text-shadow: 1px 1px 4px aquamarine;
+    
 }
 
 .fa-youtube-play a:hover {
@@ -190,16 +208,21 @@ h1 {
 }
 
 /* Newsletter */
-/*
+
 .email {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 194px;
+    height: 55px;
     border-bottom: hidden;
     border-right: hidden;
     border-top: hidden;
-    margin-top: 10px;
+    margin-top: 321px;
+    margin-left: 220px;
+    background-color:aquamarine;
+    align-items: center;
+    border: 5px solid salmon;
+    border-bottom: hidden;
 }
 
 .newsletter {
@@ -209,75 +232,104 @@ h1 {
 }
 
 .text-field {
-    margin-top: 78px;
-    margin-bottom: 78px;
+   
 }
 
 .submit {
-    margin-top: 78px;
-    margin-bottom: 78px;
+   
 }
-
-*/
 
 /* footer */
 
 footer {
-    background-color: aquamarine;
     display: flex;
+    flex-direction: row;
     margin-right: 9%;
     margin-left: 9%;
-    margin-top: 165px;
-    
-    height: 232px;
+    margin-top: 35px;
+    height: 255px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    border: 5px solid salmon;
+    border-bottom: hidden;
 }
 
+.footer {
+    display: flex;
+}
 
 .contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 84px;
-    margin-top: -15px;
+    margin-top: -14px;
 }
 
 
 h2 {
     justify-content: flex-start;
     display: flex;
-}
-
-.envelope a:hover {
-    text-decoration: underline;
-    display: visible;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 4px;
+    margin-bottom: 29px;
+    background-color: aquamarine;
+    border: 5px solid aquamarine;
+    border-top-color: aquamarine;
 }
 
 .fa-envelope {
     color: #000;
-    margin-top: 22px;
+    margin-top: 10px;    
+    border: 10px solid salmon;
+    border-radius: 30px;
+    background-color: salmon;
+}
+
+.fa-envelope:hover {
+    background-color: aquamarine;
+    border: 10px solid aquamarine;
+}
+
+.addresses {
+    margin-top: -20px;
 }
 
 .fa-phone {
     color: #000;
-    margin-right: 10px;
     margin-top: 22px;
-    
+    border: 10px solid salmon;
+    border-radius: 30px;
+    background-color: salmon;
+}
+
+.fa-phone:hover {
+    background-color: aquamarine;
+    border: 10px solid aquamarine;
 }
 
 .fa-map-marker {
     color: #000;
-    margin-right: 10px;
+    border: 10px solid salmon;
+    border-radius: 30px;
+    background-color: salmon;
+
 }
 
-
+.fa-map-marker:hover {
+    background-color: aquamarine;
+    border: 10px solid aquamarine;
+}
 /* CopyRight */
+
 .copyright {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-left: 600px;
+    margin-top: 200px;
 }
 
 .copyright-text {
-    justify-content: flex-end;
+   justify-content: flex-end; 
 }

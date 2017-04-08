@@ -29,6 +29,7 @@
 body {
     width: 98%;
     margin-top: 35px;
+    color: #0A2342;
 }
 
 header {
@@ -50,7 +51,7 @@ header {
 /* Navigation */
 
 .navbar-main {
-    border: 5px solid salmon;
+    border: 5px solid #FE7C73;
     border-radius: 30px;
     margin-top: -2px;
     border-bottom-right-radius: 0px;
@@ -61,7 +62,7 @@ header {
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     position: relative;
     height: 75px;
     margin-right: 39px;
@@ -70,67 +71,84 @@ header {
 .nav {
     font-style: none;
     margin-left: 28px;
+    padding: 5px;
 }
 
 #video {
-    margin-top: 45px;
-    border: 3px solid aquamarine;
-    background-color: aquamarine;
-    border-radius: 5px;
+    margin-top: 23px;
+    border: 3px solid #78C5B6;
+    background-color: #78C5B6;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    
 }
 
 #video:hover {
-    background-color: salmon;
-    border: 3px solid salmon;
-    border-radius: 5px;
+    background-color: #FE7C73;
+    border: 3px solid #FE7C73;
+    border-radius: 10px;
+    text-decoration: underline;
+    border-top-right-radius: 0px;
 }
 
 #audio {
-    margin-top: 45px;
-    border: 3px solid aquamarine;
-    background-color: aquamarine;
-    border-radius: 5px;
+    margin-top: 23px;
+    border: 3px solid #78C5B6;
+    background-color: #78C5B6;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    
 }
 
 #audio:hover {
-    background-color: salmon;
-    border: 3px solid salmon;
-    border-radius: 5px;
+    background-color: #FE7C73;
+    border: 3px solid #FE7C73;
+    border-radius: 10px;
+    text-decoration: underline;
+    border-top-right-radius: 0px;
 }
 
 #web {
-    margin-top: 45px;
-    border: 3px solid aquamarine;
-    background-color: aquamarine;
-    border-radius: 5px;
+    margin-top: 23px;
+    border: 3px solid #78C5B6;
+    background-color: #78C5B6;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    
 }
 
 #web:hover {
-    background-color: salmon;
-    border: 3px solid salmon;
-    border-radius: 5px;
+    background-color: #FE7C73;
+    border: 3px solid #FE7C73;
+    border-radius: 10px;
+    text-decoration: underline;
+    border-top-right-radius: 0px;
 }
 
 #commDesign {
-    margin-top: 45px;
-    border: 3px solid aquamarine;
-    background-color: aquamarine;
-    border-radius: 5px;
+    margin-top: 23px;
+    border: 3px solid #78C5B6;
+    background-color: #78C5B6;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    color: #0A2342;
 }
 
 #commDesign:hover {
-    background-color: salmon;
-    border: 3px solid salmon;
-    border-radius: 5px;
+    background-color: #FE7C73;
+    border: 3px solid #FE7C73;
+    border-radius: 10px;
+    text-decoration: underline;
+    border-top-right-radius: 0px;
 }
 
 .links {
-    color: #000;
-    margin-right: -5px;
+    color: #0A2342;
+    margin-right: 56px;
 }
 
 .links:hover {
-    background-color: salmon;
+    background-color: #FE7C73;
     text-decoration: none;
 }
 
@@ -147,31 +165,32 @@ header {
 
 h1 {
     text-align: center;
-    background-color: salmon;
+    background-color: #FE7C73;
     margin-right: 9%;
     margin-left: 9%;
     height: 46px;
     border-radius: 30px;
     border-top-right-radius: 0px;
+    color: #0A2342;
 }
 
 .yes {
     display: flex;
     flex-direction: row;
-    margin-bottom: -87px;
+    margin-bottom: -191px;
 }
 
 
 /* Description Paragraph */
 
 .description-parent {
-    background-color: aquamarine;
+    background-color: #78C5B6;
     border-bottom-right-radius: 30px;
     height: 168px;
     width: 361px;
     margin-left: 280px;
-    margin-top: -35px;
-    border: 5px solid salmon;
+    margin-top: -463px;
+    border: 5px solid #FE7C73;
     border-top: hidden;
 }
 
@@ -233,41 +252,6 @@ h1 {
     text-shadow: hidden;
 }
 
-
-/* Newsletter */
-
-.email {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 55px;
-    border-bottom: hidden;
-    border-right: hidden;
-    border-top: hidden;
-    margin-top: 293px;
-    margin-left: 220px;
-    background-color: aquamarine;
-    align-items: center;
-    border: 5px solid salmon;
-    border-bottom: hidden;
-}
-
-.newsletter {
-    justify-content: center;
-    margin-bottom: 0px;
-    padding-left: 10px;
-    align-self: center;
-}
-
-.text-field {
-    
-}
-
-.submit {
-    
-}
-
-
 /* footer */
 
 footer {
@@ -275,11 +259,11 @@ footer {
     flex-direction: row;
     margin-right: 9%;
     margin-left: 9%;
-    margin-top: 7px;
+    margin-top: 111px;
     height: 255px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    border: 5px solid salmon;
+    border: 5px solid #FE7C73;
     border-bottom: hidden;
 }
 
@@ -299,9 +283,10 @@ h2 {
     display: flex;
     flex-direction: row;
     border-bottom-right-radius: 15px;
-    background-color: aquamarine;
-    border: 5px solid aquamarine;
-    border-top-color: aquamarine;
+    border-top-right-radius: 15px;
+    background-color: #78C5B6;
+    border: 5px solid #78C5B6;
+    border-top-color: #78C5B6;
     margin-right: 10px;
     margin-bottom: 27px;
     height: 65px;
@@ -311,19 +296,20 @@ h2 {
 .fa-envelope {
     color: #000;
     margin-top: 10px;
-    border: 10px solid salmon;
+    border: 10px solid #FE7C73;
     border-radius: 30px;
-    background-color: salmon;
+    background-color: #FE7C73;
 }
 
 .fa-envelope:hover {
-    background-color: aquamarine;
-    border: 10px solid aquamarine;
+    background-color: #78C5B6;
+    border: 10px solid #78C5B6;
     text-decoration: underline;
 }
 
 p {
-    font-family: sans-serif
+    font-family: sans-serif;
+    color: #0A2342;
 }
 
 .addresses {
@@ -334,38 +320,101 @@ p {
 .fa-phone {
     color: #000;
     margin-top: 15px;
-    border: 10px solid salmon;
+    border: 10px solid #FE7C73;
     border-radius: 30px;
-    background-color: salmon;
+    background-color: #FE7C73;
 }
 
 .fa-phone:hover {
-    background-color: aquamarine;
-    border: 10px solid aquamarine;
+    background-color: #78C5B6;
+    border: 10px solid #78C5B6;
     text-decoration: underline;
 }
 
 .fa-map-marker {
     color: #000;
-    border: 10px solid salmon;
+    border: 10px solid #FE7C73;
     border-radius: 30px;
-    background-color: salmon;
+    background-color: #FE7C73;
     margin-top: 15px;
 }
 
 .fa-map-marker:hover {
-    background-color: aquamarine;
-    border: 10px solid aquamarine;
+    background-color: #78C5B6;
+    border: 10px solid #78C5B6;
     text-decoration: underline;
 }
+
+/* Inquiry */
+
+.inquiry {
+    align-items: center;
+    margin-top: 68px;
+}
+
+span {
+    color: red;
+}
+
+h3 {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #78C5B6;
+    border: 5px solid #78C5B6;
+    border-top-color: #78C5B6;
+    margin-right: 10px;
+    height: 65px;
+    align-items: center;
+}
+
+.inquiry-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #FE7C73;
+    border: 9px solid #FE7C73;
+    border-radius: 20px;
+}
+
+/* Newsletter */
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 55px;
+    border-right: hidden;
+    border-top: hidden;
+    margin-left: 220px;
+    background-color: #78C5B6;
+    align-items: center;
+    border: 5px solid #FE7C73;
+}
+
+.newsletter {
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    align-self: center;
+}
+
+.text-field {
+    
+}
+
+.submit {
+    
+}
+
 
 /* CopyRight */
 
 .copyright {
     display: flex;
     flex-direction: row;
-    margin-left: 600px;
-    margin-top: 220px;
+    margin-top: 225px;
 }
 
 .copyright-text {

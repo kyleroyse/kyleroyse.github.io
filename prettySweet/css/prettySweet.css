@@ -512,10 +512,10 @@ h2 {
     display: flex;
     flex-direction: row;
     border-radius: 15px;
-    background-color: #a0d6b4;
+    background-color: #FEB7B2;
     border: 4px solid #fff;
     margin-right: 10px;
-    margin-top: 15px;
+    margin-top: 100px;
     height: 70px;
     align-items: center;
     padding: 5px;
@@ -532,26 +532,36 @@ h2 {
     }
 }
 
+.fa-video-camera{
+    font-size: 45px;
+    margin-left: 60px;
+}
 
 .video-description{
     display: flex;
     flex-direction: column;
-    background-color: #FEB7B2;
-    border: 5px solid #0A2342;
+    background-color: #a0d6b4;
+    border: 5px solid #a0d6b4;
     border-radius: 40px;
     width: 185px;
     margin-left: 150px;
-    margin-top: 20px;
+    margin-top: 420px;
 }
 
-.video-description-paragraph{
+.video-paragraph{
+    margin: 5px;
     padding: 10px;
+}
+
+.fa-volume-up{
+    font-size: 45px;
+    
+
 }
 
 .audio-production-main{
     display: flex;
     flex-direction: column;
-    margin-top: 215px;
     margin-right: 9%;
     margin-left: 9%;
     text-align: center;
@@ -560,38 +570,58 @@ h2 {
 .audio-description{
     display: flex;
     flex-direction: column;
-    background-color: #FEB7B2;
-    border: 5px solid #0A2342;
+    background-color: #a0d6b4;
+    border: 5px solid #a0d6b4;
     border-radius: 40px;
     width: 185px;
     margin-left: 150px;
-    margin-top: 20px;
+    margin-top: 420px;
 }
 
 .audio-paragraph{
     padding: 10px;
 }
 
+.fa-desktop{
+    font-size: 45px;
+    margin-right: 700px;
+}
+
 .web-design-main{
     display: flex;
     flex-direction: column;
-    margin-top: 215px;
     margin-right: 9%;
     margin-left: 9%;
     text-align: center;
+    margin-bottom: 400px;
+}
+
+web-description{
+    
 }
 
 .web-paragraph{
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #a0d6b4;
+    border: 5px solid #a0d6b4;
+    border-radius: 40px;
+    width: 185px;
+    margin-left: 150px;
 }
 
 .communication-design-main{
     display: flex;
     flex-direction: column;
-    margin-top: 215px;
+    margin-bottom: 400px;
     margin-right: 9%;
     margin-left: 9%;
     text-align: center;
+}
+
+.comm-description{
+    
 }
 
 .comm-paragraph{
@@ -611,6 +641,7 @@ footer {
     border-top-right-radius: 30px;
     border: 5px solid #0A2342;
     border-bottom: hidden;
+    background-color: #a0d6b4;
 }
 
 @media screen and (max-width: 320px){
@@ -800,8 +831,8 @@ select {
 .newsletter {
     justify-content: center;
     margin-bottom: 0px; 
-    padding-left: 10px;
-    padding-right: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
     align-self: center;
 }
 

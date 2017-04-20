@@ -386,10 +386,14 @@ h1 {
 
 /* Social Media Icons */
 
+.social-container{
+    position: fixed;
+}
+
 .ok {
     display: flex;
     flex-direction: row;
-    margin-left: 90px;
+    margin-left: 50px;
 }
 
 @media screen and (max-width: 320px){
@@ -446,13 +450,15 @@ h1 {
 /* Description Paragraph */
 
 .description-parent {
+    display: flex;
+    flex-direction: row;
     background-color: #a0d6b4;
     border-bottom-right-radius: 30px;
     width: 361px;
-    margin-left: 152px;
+    margin-left: 210px;
     border: 5px solid #0A2342;
     border-top: hidden;
-    height: 146px;
+    height: 150px;
 }
 
 @media screen and (max-width: 320px){
@@ -467,10 +473,6 @@ h1 {
     }
 }
 
-.description-container {
-    display: flex;
-    flex-direction: row;
-}
 
 @media screen and (max-width: 320px){
     .description-container{
@@ -672,6 +674,23 @@ footer {
     }
 }
 
+h5{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #FEB7B2;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 70px;
+    align-items: center;
+    padding: 5px;
+    font-size: 30px;
+}
+}
+
 .addresses {
     margin-bottom: 10px;
     text-decoration: underline;
@@ -733,20 +752,20 @@ p {
 
 /* Inquiry */
 
-h3 {
+h6 {
     justify-content: flex-start;
     display: flex;
     flex-direction: row;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-    background-color: #a0d6b4;
-    border: 4px solid #fff;
+    background-color: #FEB7B2;
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 15px;
     height: 70px;
     align-items: center;
     padding: 5px;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 320px){
@@ -816,7 +835,7 @@ select {
     border-right: hidden;
     margin-top: -5px;
     margin-left: 40px;
-    background-color: #a0d6b4;
+    background-color: #FEB7B2;
     align-items: center;
     border: 5px solid #0A2342;
     border-top-color: #0A2342;

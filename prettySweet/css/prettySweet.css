@@ -454,11 +454,11 @@ h1 {
     flex-direction: row;
     background-color: #a0d6b4;
     border-bottom-right-radius: 30px;
-    width: 361px;
-    margin-left: 210px;
+    width: 72%;
+    margin-left: 169px;
     border: 5px solid #0A2342;
     border-top: hidden;
-    height: 150px;
+    height: 275px;
 }
 
 @media screen and (max-width: 320px){
@@ -483,9 +483,10 @@ h1 {
 
 
 .description {
-    width: 340px;
-    margin: 7px 16px 0px;
+    width: 100%;
     font-size: 15px;
+    margin-left: 115px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 320px){
@@ -495,6 +496,11 @@ h1 {
     font-size: 15px;   
     }
 }
+
+.description2{
+    margin: 100px;
+}
+
 
 video-production-main{
     

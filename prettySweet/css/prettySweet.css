@@ -38,7 +38,6 @@
 
 @media screen and (max-width: 320px) {
     #video-bg-elm {
-        
         visibility: hidden;
     }
 }
@@ -553,6 +552,7 @@ h2 {
     flex-direction: column;
     background-color: #a0d6b4;
     border: 5px solid #a0d6b4;
+    
     border-radius: 40px;
     width: 185px;
     margin-left: 150px;
@@ -604,6 +604,10 @@ h2 {
     margin-right: 9%;
     margin-left: 9%;
     text-align: center;
+}
+
+.web-design{
+    margin-top: -250px;
 }
 
 web-description{

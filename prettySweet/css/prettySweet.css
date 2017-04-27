@@ -207,19 +207,13 @@ header {
     }
 }
 
-.links:hover {
-    background-color: #FEABA5;
-    text-decoration: none;
-    color: #0A2342;
-}
-
 #video {
-    margin-top: 23px;
-    border: 3px solid #0A2342;
-    background-color: #78C5B6;
-    border-radius: 10px;
+    margin-top: 0px;
+    border: 3px solid #fff;
+    border-radius: 20px;
     border-bottom-right-radius: 0px;
-    padding: 5px;
+    padding: 15px;
+    height: 55px;
 }
 
 @media screen and (max-width: 320px){
@@ -231,7 +225,7 @@ header {
 
 #video:hover {
     background-color: #FEABA5;
-    border: 3px solid #FEABA5;
+    border: 3px solid #FEB7B2;
     border-radius: 10px;
     text-decoration: underline;
     border-top-right-radius: 0px;

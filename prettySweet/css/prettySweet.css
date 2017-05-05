@@ -53,6 +53,7 @@ li {
 
 a{
     color: #0A2342;
+    background: transparent;
 }
 
 body {
@@ -315,11 +316,11 @@ main {
 /* Heading */
 
 .main-heading {
-     text-align: center;
+    text-align: center;
     background-color: #FEB7B2;
     margin-right: 9%;
     margin-left: 9%;
-    height: 100px;
+    height: 85px;
     border-radius: 30px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -337,7 +338,7 @@ main {
 
 h1 {
     font-size: 50px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 @media screen and (max-width: 320px){
@@ -345,7 +346,7 @@ h1 {
     text-align: center;
     background-color: #FEB7B2;
     margin-bottom: 61px;
-    height: 122px;
+    height: 115px;
     border-radius: 30px;
     border-top-right-radius: 0px;
     color: #0A2342;
@@ -427,11 +428,11 @@ h1 {
     background-color: #a0d6b4;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 0px;
-    width: 37%;
-    margin-left: 79px;
+    width: 518px;
+    margin-left: 80px;
     border: 5px solid #0A2342;
-    height: 125px;
-    margin-top: 20px;
+    height: 115px;
+    margin-top: -5px;
 }
 /*
 p {
@@ -472,6 +473,10 @@ p {
     margin: 2px 3px 0px;
     font-size: 15px;   
     }
+}
+
+.bio-p{
+    
 }
 
 .description2{

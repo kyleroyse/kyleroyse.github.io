@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    background-color: black;
+    background-size: cover;
 }
 
 header{
@@ -7,7 +9,7 @@ header{
     background-size: cover;
 }
 
-a {
+ul, a {
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -50,5 +52,26 @@ li:hover {
 }
 
 h2{
-    
+    text-transform: uppercase;
+}
+
+ main{
+    background-color: #fff;
+    margin-top: 258px;
+}
+
+.who-are-we{
+    display: flex;
+    flex-direction: row;
+}
+
+#about-img{
+    margin-top: 0px;
+}
+
+h2, p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
 }

@@ -52,7 +52,7 @@ li {
 }
 
 a{
-    color: #0A2342;
+
     background: transparent;
 }
 
@@ -215,6 +215,7 @@ header {
     border-bottom-right-radius: 0px;
     padding: 15px;
     height: 55px;
+    color: #0A2342;
 }
 
 @media screen and (max-width: 320px){
@@ -256,12 +257,14 @@ header {
 }
 
 #web {
-    margin-top: 23px;
-    border: 3px solid #0A2342;
-    background-color: #78C5B6;
-    border-radius: 10px;
+    margin-top: 0px;
+    border: 3px solid #fff;
+    border-radius: 20px;
     border-bottom-right-radius: 0px;
-    padding: 5px;
+    padding: 15px;
+    height: 55px;
+    
+    color: #0A2342;
 }
 
 @media screen and (max-width: 320px){
@@ -301,6 +304,10 @@ header {
     border-radius: 10px;
     text-decoration: underline;
     border-top-right-radius: 0px;
+}
+
+#comm{
+    color: #0A2342;
 }
 
 main {
@@ -476,6 +483,10 @@ p {
 }
 
 .bio-p{
+    
+}
+
+#video-production{
     
 }
 

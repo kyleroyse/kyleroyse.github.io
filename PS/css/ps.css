@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+}
+
+header{
+    background-color: black;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: center;
+}
+
+a:hover {
+    color: black;
+}
+
+#logo,
+img {
+    width: 750px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+ul {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+li:hover {
+    background-color: #fff;
+}
+
+h2{
+    
+}

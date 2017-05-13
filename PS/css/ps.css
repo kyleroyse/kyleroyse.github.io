@@ -1,6 +1,13 @@
 body {
     font-family: sans-serif;
     background-color: #000;
+    right: 80%;
+    left: 80%;
+    margin: auto;
+}
+
+header{
+    
 }
 
 .landing{
@@ -8,6 +15,7 @@ body {
     align-self: center;
     flex-direction: column;
     justify-content: center;
+    background-size: cover;
 }
 
 ul, a {
@@ -188,4 +196,9 @@ h3 + p{
     width: 175px;
     height: 125px;
     border-radius: 150px;
+}
+
+span{
+    width: 100%;
+    
 }

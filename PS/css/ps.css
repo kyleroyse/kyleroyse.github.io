@@ -24,7 +24,7 @@ a {
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    color: #fff;
+    
     justify-content: center;
 }
 
@@ -48,6 +48,10 @@ ul {
     justify-content: center;
 }
 
+ul:hover{
+    
+}
+
 li {
     display: flex;
     flex-direction: row;
@@ -56,10 +60,11 @@ li {
     text-decoration: none;
     display: flex;
     justify-content: center;
+    color: #fff;
 }
 
 li:hover {
-    background-color: #fff;
+    color: #000;
 }
 
 #contact-tab{
@@ -239,6 +244,7 @@ span {
     flex-direction: row;
     padding: 10px;
     margin-top: 40px;
+    color: #fff;
 }
 
 .fa-facebook:hover{
@@ -246,7 +252,7 @@ span {
 }
 
 fa-instagram:hover {
-    color: #a8a8a8;
+    color: #000;
 }
 
 .fa-twitter:hover{
@@ -269,6 +275,7 @@ fa-instagram:hover {
     font-size: 20px;
     padding: 10px;
     margin-top: 80px;
+    color: #fff;
 }
 
 .email:hover{

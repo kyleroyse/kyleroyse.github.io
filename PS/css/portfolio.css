@@ -1,0 +1,29 @@
+main {
+    background: url(/PS/img/florian-klauer-119557.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Didact Gothic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

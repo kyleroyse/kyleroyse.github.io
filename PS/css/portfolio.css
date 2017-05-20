@@ -1,24 +1,59 @@
 main {
-    background: url(/PS/img/florian-klauer-119557.jpg);
+    background: linear-gradient(to bottom, rgba(20,20,20,0.9) 0%, rgba(0,0,0,0.8) 100%), url(/PS/img/florian-klauer-119557.jpg);
     background-size: cover;
     background-position: center;
     background-size: cover;
     padding: 150px 0;
     color: #fff;
     text-align: center;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: -45px;
+}
+
+ol {
+    margin-top: -105px;
+    margin-bottom: 10px;
+}
+
+li{
+    padding-right: 35px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .portfolio {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 75px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 130px;
 }
 
-h1 {
-    font-family: 'Didact Gothic', sans-serif;
+.forma{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    margin-top: 45px;
 }
 
 h2 {

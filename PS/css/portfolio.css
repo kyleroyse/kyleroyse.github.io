@@ -1,3 +1,7 @@
+body{
+    background-color: #000;
+}
+
 main {
     background: linear-gradient(to bottom, rgba(20,20,20,0.9) 0%, rgba(0,0,0,0.8) 100%), url(/PS/img/florian-klauer-119557.jpg);
     background-size: cover;
@@ -6,7 +10,7 @@ main {
     padding: 150px 0;
     color: #fff;
     text-align: center;
-    height: 660px;
+    height: 665px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,12 +52,14 @@ li{
     margin-top: 130px;
 }
 
-.forma{
+.services{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     margin-top: 45px;
+    width: 100%;
+    background-color: #fff;
 }
 
 h2 {

@@ -1,0 +1,12 @@
+.header{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+.logo{
+    height: 400px;
+    width: 600px;
+    display: flex;
+}

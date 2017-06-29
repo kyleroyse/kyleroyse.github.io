@@ -1,13 +1,278 @@
-body {
-    font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
+    main {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(/PS/img/florian-klauer-119557.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    color: #fff;
+    text-align: center;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 45px;
 }
 
-.logo{
+@media screen and (max-width: 320px) {
+    main {
+        height: 435px;
+    }
+}
+
+img {
+    height: 365px;
+    margin-top: -100px;
+}
+
+@media screen and (max-width: 320px) {
+    img {
+        height: 234px;
+        margin-top: -315px;
+    }
+}
+
+.logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+#pretty-sweet-logo {
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 320px) {
+    #pretty-sweet-logo {
+        margin-top: -120px;;
+    }
+}
+
+.portfolio {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 15px;
+    border: 1px solid #000;
+    border-right: hidden;
+    border-left: hidden;
+    font-size: 35px;
+    margin-right: 13%;
+    margin-left: 13%;
+    width: 100%;
+    text-align: center;
+}
+
+.who-are-we {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -250px;
+}
+
+@media screen and(max-width: 320px) {
+    .who-are-we {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+#about-img {
+    margin-top: 325px;
+    height: 400px;
+    margin-left: 190px;
+}
+
+@media screen and (max-width: 320px) {
+    #about-img {
+        margin-top: -90px;
+        margin-left: 0px;
+        width: 320px;
+        height: 320px;
+    }
+}
+
+
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: 325px;
+}
+@media screen and (max-width: 320px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+h1 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid #000;
+    border-right: hidden;
+    border-left: hidden;
+    padding: 5px;
+    font-size: 45px;
+}
+
+@media screen and (max-width: 320px) {
+    .about-paragraph {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;
+    }
+}
+
+.about-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 75px;
+}
+.quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 25px;
+    font-weight: 100;
+}
+.services-parent {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    background-color: #fff;
+    font-size: 35px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 45px;
+}
+.audio-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
+#mixer {
+    width: 175px;
+    height: 125px;
+    border-radius: 150px;
+}
+h3 + p {
+    width: 175px;
+    font-size: 17px;
+}
+.video-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
+#video {
+    width: 175px;
+    height: 125px;
+    border-radius: 150px;
+}
+.web-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
+#web {
+    width: 175px;
+    height: 125px;
+    border-radius: 150px;
+}
+.social-media-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
+#social-media {
+    width: 175px;
+    height: 125px;
+    border-radius: 150px;
+}
+.social-media-parent {
+    background-color: #939393;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 135px;
+}
+.fa {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 40px;
+    color: #fff;
+}
+.fa-facebook {}
+.fa-facebook:hover {
+    color: #3b5998;
+}
+.fa-instagram:hover {
+    color: #000;
+}
+.fa-twitter:hover {
+    color: #4099FF;
+}
+.fa-youtube-play:hover {
+    color: #cc181e;
+}
+.email-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    background-color: #000;
+}
+.email {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 80px;
+    color: #fff;
+}
+.email:hover {
+    color: #939393;

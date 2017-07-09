@@ -55,7 +55,7 @@ h1 {
     
 }
 
-.services {
+.mantra {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,7 +132,7 @@ h2 {
 }
 
 .about-paragraph {
-    font-family: sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

@@ -46,14 +46,13 @@ img {
     }
 }
 
-.portfolio {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 75px;
+h1 {
+    text-transform: uppercase;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin-top: 100px;
+    flex-direction: row;
+    font-size: 45px;
+    
 }
 
 .services {
@@ -61,6 +60,10 @@ img {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+element.style {
+    margin-top: 334px;
 }
 
 h2 {
@@ -73,7 +76,7 @@ h2 {
     border: 1px solid #000;
     border-right: hidden;
     border-left: hidden;
-    font-size: 35px;
+    font-size: 45px;
     margin-right: 13%;
     margin-left: 13%;
     width: 100%;
@@ -96,7 +99,7 @@ h2 {
 }
 
 #about-img {
-    margin-top: 325px;
+    margin-top: 283px;
     height: 400px;
     margin-left: 190px;
 }
@@ -128,16 +131,14 @@ h2 {
     }
 }
 
-h1 {
-    text-transform: uppercase;
+.about-paragraph {
+    font-family: sans-serif;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    border: 1px solid #000;
-    border-right: hidden;
-    border-left: hidden;
-    padding: 5px;
-    font-size: 45px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 215px;
+    margin-top: 255px;
+    margin-left: 40px;
 }
 
 @media screen and (max-width: 320px) {
@@ -149,12 +150,6 @@ h1 {
     }
 }
 
-.about-paragraph {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 75px;
-}
 .quote {
     display: flex;
     flex-direction: row;

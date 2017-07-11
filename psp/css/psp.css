@@ -1,117 +1,162 @@
     main {
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(/psp/img/florian-klauer-119557.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 150px 0;
-    color: #fff;
-    text-align: center;
-    height: 390px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-@media screen and (max-width: 320px) {
-    main {
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(/psp/img/florian-klauer-119557.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 150px 0;
-    color: #fff;
-    text-align: center;
-    height: 390px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 129%;
+        background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(/psp/img/florian-klauer-119557.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 150px 0;
+        color: #fff;
+        text-align: center;
+        height: 390px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-}
-
-img {
-    height: 365px;
-    margin-top: -100px;
-}
-
-@media screen and (max-width: 320px) {
-    img {
-        height: 234px;
-        margin-top: -315px;
-    }
-}
-
-.logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#pretty-sweet-logo {
-    margin-top: 0px;
-}
-
-@media screen and (max-width: 320px) {
-    #pretty-sweet-logo {
-        margin-top: -120px;;
-    }
-}
-
-h1 {
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    font-size: 45px;
     
-}
-
-.mantra {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin-top: 45px;
-}
-
-element.style {
-    margin-top: 334px;
-}
-
-.who-are-we {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: -250px;
-}
-
-@media screen and(max-width: 320px) {
-    .who-are-we {
+    @media screen and (max-width: 320px) {
+        main {
+            background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(/psp/img/florian-klauer-119557.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 150px 0;
+            color: #fff;
+            text-align: center;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 285%;
+        }
+    }
+    
+    img {
+        height: 365px;
+        margin-top: -100px;
+    }
+    
+    @media screen and (max-width: 320px) {
+        img {
+            height: 234px;
+            margin-top: -315px;
+        }
+    }
+    
+    .logo {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-}
-
-#about-img {
-    margin-top: 90px;
-    height: 400px;
-    margin-left: 190px;
-}
-
-@media screen and (max-width: 320px) {
-    #about-img {
-        margin-top: -90px;
-        margin-left: 0px;
-        width: 320px;
-        height: 320px;
+    
+    .main {
+        display: flex;
+        flex-direction: column;
     }
-}
+    
+    #pretty-sweet-logo {
+        margin-top: 0px;
+    }
+    
+    @media screen and (max-width: 320px) {
+        #pretty-sweet-logo {
+            margin-top: -45px;
+            height: 655px;
+        }
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    h1 {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 45px;
+    }
 
-#about{
+.mantra-parent{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 430px;
 }
-
+    
+    .mantra {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        background-color: #fff;
+        font-size: 35px;
+        font-family: 'Didact Gothic', sans-serif;
+        margin-top: 45px;
+    }
+    
+    @media screen and (max-width: 320px) {
+        .mantra {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 130%;
+            font-family: 'Didact Gothic', sans-serif;
+            font-size: 75px;
+            margin-left: 210px;
+        }
+    }
+    
+    .who-are-we {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -195px;
+    }
+    
+    @media screen and(max-width: 320px) {
+        .who-are-we {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
+    .camera-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #about-img {
+        margin-top: 90px;
+        height: 400px;
+        margin-left: 190px;
+    }
+    
+    @media screen and (max-width: 320px) {
+        #about-img {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 645px;
+            width: 520px;
+            height: 363px;
+            margin-top: 165px;
+        }
+    }
+    
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
 }
 .about {
     display: flex;
@@ -128,7 +173,6 @@ element.style {
         justify-content: center;
     }
 }
-
 .about-paragraph {
     font-family: 'Didact Gothic', sans-serif;
     display: flex;
@@ -139,7 +183,6 @@ element.style {
     margin-left: 90px;
     font-size: x-large;
 }
-
 @media screen and (max-width: 320px) {
     .about-paragraph {
         display: flex;
@@ -148,7 +191,6 @@ element.style {
         margin: 0px;
     }
 }
-
 .quote {
     display: flex;
     flex-direction: row;
@@ -157,19 +199,7 @@ element.style {
     font-size: 25px;
     font-weight: 100;
 }
-
-.mantra {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    background-color: #fff;
-    font-size: 35px;
-    font-family: 'Didact Gothic', sans-serif;
-    margin-bottom: 60px;
-}
-
-.services{
+.services {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -180,14 +210,12 @@ element.style {
     margin-bottom: 45px;
     align-items: baseline;
 }
-
 .services-parent {
     background-color: #fff;
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
-
 #h2 {
     font-family: 'Didact Gothic', sans-serif;
     display: flex;
@@ -204,7 +232,6 @@ element.style {
     width: 100%;
     text-align: center;
 }
-
 .audio-services {
     display: flex;
     flex-direction: column;

@@ -1,5 +1,5 @@
     main {
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(/PS/img/florian-klauer-119557.jpg);
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(/psp/img/florian-klauer-119557.jpg);
     background-size: cover;
     background-position: center;
     padding: 150px 0;
@@ -9,12 +9,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 45px;
+    align-items: center;
 }
 
 @media screen and (max-width: 320px) {
     main {
-        height: 435px;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(/psp/img/florian-klauer-119557.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    color: #fff;
+    text-align: center;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 129%;
     }
 }
 
@@ -60,27 +70,11 @@ h1 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin-top: 45px;
 }
 
 element.style {
     margin-top: 334px;
-}
-
-h2 {
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 100px;
-    padding: 15px;
-    border: 1px solid #000;
-    border-right: hidden;
-    border-left: hidden;
-    font-size: 45px;
-    margin-right: 13%;
-    margin-left: 13%;
-    width: 100%;
-    text-align: center;
 }
 
 .who-are-we {
@@ -141,8 +135,9 @@ h2 {
     flex-direction: column;
     justify-content: flex-start;
     margin: 215px;
-    margin-top: 500px;
+    margin-top: 320px;
     margin-left: 90px;
+    font-size: x-large;
 }
 
 @media screen and (max-width: 320px) {
@@ -158,7 +153,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: -10px;
     font-size: 25px;
     font-weight: 100;
 }
@@ -171,7 +166,7 @@ h2 {
     background-color: #fff;
     font-size: 35px;
     font-family: 'Didact Gothic', sans-serif;
-    margin-bottom: 45px;
+    margin-bottom: 60px;
 }
 
 .services{
@@ -183,14 +178,33 @@ h2 {
     font-size: 35px;
     font-family: 'Didact Gothic', sans-serif;
     margin-bottom: 45px;
+    align-items: baseline;
 }
 
 .services-parent {
     background-color: #fff;
     display: flex;
     justify-content: center;
-    margin-top: 75px;
+    margin-top: 50px;
 }
+
+#h2 {
+    font-family: 'Didact Gothic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 15px;
+    border: 1px solid #000;
+    border-right: hidden;
+    border-left: hidden;
+    font-size: 45px;
+    margin-right: 13%;
+    margin-left: 13%;
+    width: 100%;
+    text-align: center;
+}
+
 .audio-services {
     display: flex;
     flex-direction: column;
@@ -284,6 +298,7 @@ h3 + p {
     padding: 10px;
     margin-top: 80px;
     color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
 }
 .email:hover {
     color: #939393;

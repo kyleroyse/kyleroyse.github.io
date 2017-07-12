@@ -83,12 +83,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 430px;
 }
     
     .mantra {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         width: 100%;
         background-color: #fff;

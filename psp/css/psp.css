@@ -20,7 +20,7 @@
             padding: 150px 0;
             color: #fff;
             text-align: center;
-            height: 250px;
+            height: 160px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -77,13 +77,13 @@
         flex-direction: row;
         font-size: 45px;
     }
-
-.mantra-parent{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    
+    .mantra-parent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
     .mantra {
         display: flex;
@@ -102,10 +102,10 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 130%;
+            width: 0%;
             font-family: 'Didact Gothic', sans-serif;
-            font-size: 75px;
-            margin-left: 210px;
+            font-size: 110px;
+            margin-left: 640px;
         }
     }
     
@@ -145,10 +145,10 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-left: 645px;
-            width: 520px;
-            height: 363px;
-            margin-top: 165px;
+            margin-left: 1095px;
+            width: 100%;
+            margin-top: -1650px;
+            height: 625px;
         }
     }
     
@@ -187,7 +187,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 0px;
+        margin-top: 850px;
+        font-size: 55px;
+        margin-left: -240px;
+        align-items: center;
     }
 }
 .quote {
@@ -197,6 +200,9 @@
     margin-top: -10px;
     font-size: 25px;
     font-weight: 100;
+}
+@media screen and (max-width: 320px) {
+    .quote {}
 }
 .services {
     display: flex;

@@ -95,6 +95,8 @@
         font-size: 35px;
         font-family: 'Didact Gothic', sans-serif;
         margin-top: 45px;
+        margin-bottom: 65px;
+
     }
     
     @media screen and (max-width: 320px) {
@@ -114,29 +116,44 @@
     .who-are-we {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: stretch;
         justify-content: center;
-        margin-top: -195px;
     }
     
     @media screen and(max-width: 320px) {
         .who-are-we {
             display: flex;
+            flex-wrap: wrap;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            margin-bottom: 500px;
         }
     }
     
     .camera-img {
         display: flex;
         flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        margin-bottom: -75px;
+    }
+
+@media screen and (max-width: 320px) {
+    .camera-img{
+        display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
+        height: 100%;
+        width: 100%;
     }
+}
     
     #about-img {
-        margin-top: 90px;
+        margin-top: 0px;
         height: 400px;
         margin-left: 190px;
     }
@@ -165,7 +182,8 @@
     justify-content: center;
     margin-left: 175px;
     margin-right: 175px;
-    margin-top: 325px;
+    margin-top: 0px;
+    margin-bottom: -45px;
 }
 @media screen and (max-width: 320px) {
     .about {
@@ -180,7 +198,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin: 215px;
-    margin-top: 320px;
+    margin-top: 55px;
     margin-left: 90px;
     font-size: x-large;
 }
@@ -200,7 +218,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: -10px;
+    margin-top: -175px;
     font-size: 25px;
     font-weight: 100;
 }
@@ -215,6 +233,14 @@
         margin-left: 900px;
     }
 }
+
+.services-parent {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
 .services {
     display: flex;
     flex-direction: row;
@@ -226,18 +252,13 @@
     margin-bottom: 45px;
     align-items: baseline;
 }
-.services-parent {
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
+
 #h2 {
     font-family: 'Didact Gothic', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 0px;
     padding: 15px;
     border: 1px solid #000;
     border-right: hidden;

@@ -20,7 +20,7 @@
             padding: 150px 0;
             color: #fff;
             text-align: center;
-            height: 160px;
+            height: 315px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -105,8 +105,9 @@
             align-items: center;
             width: 0%;
             font-family: 'Didact Gothic', sans-serif;
-            font-size: 110px;
+            font-size: 165px;
             margin-left: 750px;
+            text-align: center;
         }
     }
     
@@ -149,7 +150,7 @@
             margin-left: 1346px;
             width: 100%;
             margin-top: -3025px;
-            height: 740px;
+            height: 775px;
         }
     }
     
@@ -192,6 +193,7 @@
         font-size: 100px;
         margin-left: -240px;
         align-items: center;
+        text-align: center;
     }
 }
 .quote {
@@ -203,7 +205,15 @@
     font-weight: 100;
 }
 @media screen and (max-width: 320px) {
-    .quote {}
+    .quote {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -10px;
+        font-size: 90px;
+        text-align: center;
+        margin-left: 900px;
+    }
 }
 .services {
     display: flex;

@@ -5,7 +5,7 @@
         padding: 150px 0;
         color: #fff;
         text-align: center;
-        height: 390px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -91,11 +91,10 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        width: 0%;
         font-family: 'Didact Gothic', sans-serif;
-        font-size: 165px;
-        margin-left: 0px;
-        margin-right: 150px;
+        font-size: 45px;
+        margin-top: 35px;
+        margin-bottom: 50px;
         text-align: center;
     }
     
@@ -201,7 +200,7 @@
     margin: 215px;
     margin-top: 55px;
     margin-left: 90px;
-    font-size: x-large;
+    font-size: 25px;
 }
 @media screen and (max-width: 320px) {
     .about-paragraph {
@@ -219,7 +218,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: -175px;
+    margin-top: -185px;
     font-size: 25px;
     font-weight: 100;
 }
@@ -239,6 +238,13 @@
     display: flex;
     justify-content: center;
     margin-top: 0px;
+}
+
+@media screen and (max-width: 320px){
+    .services-parent{
+        display: flex;
+    justify-content: center;
+    }
 }
 .services {
     display: flex;
@@ -264,16 +270,31 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 0px;
     padding: 15px;
     border: 1px solid #000;
     border-right: hidden;
     border-left: hidden;
     font-size: 45px;
+    margin-top: 95px;
     margin-right: 13%;
     margin-left: 13%;
     width: 100%;
     text-align: center;
+}
+@media screen and (max-width: 320px) {
+    #h2 {
+        font-family: 'Didact Gothic', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px;
+        border: 1px solid #000;
+        border-right: hidden;
+        border-left: hidden;
+        font-size: 45px;
+        margin-top: 95px;
+        text-align: center;
+    }
 }
 .audio-services {
     display: flex;

@@ -52,6 +52,12 @@
         flex-direction: column;
     }
     
+    @media screen and (max-width: 320px) {
+        .main {
+            visibility: hidden;
+        }
+    }
+    
     #pretty-sweet-logo {
         margin-top: 0px;
     }
@@ -239,11 +245,12 @@
     justify-content: center;
     margin-top: 0px;
 }
-
-@media screen and (max-width: 320px){
-    .services-parent{
+@media screen and (max-width: 320px) {
+    .services-parent {
         display: flex;
-    justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
     }
 }
 .services {
@@ -288,11 +295,8 @@
         flex-direction: column;
         justify-content: center;
         padding: 15px;
-        border: 1px solid #000;
-        border-right: hidden;
-        border-left: hidden;
-        font-size: 45px;
-        margin-top: 95px;
+        font-size: 200px;
+        margin-top: -11515px;
         text-align: center;
     }
 }

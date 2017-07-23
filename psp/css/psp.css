@@ -295,8 +295,10 @@
         flex-direction: column;
         justify-content: center;
         padding: 15px;
+        border: hidden;
         font-size: 200px;
-        margin-top: -11515px;
+        margin-top: -11550px;
+        margin-left: 175px;
         text-align: center;
     }
 }

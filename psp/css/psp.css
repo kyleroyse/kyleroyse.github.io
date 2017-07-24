@@ -64,8 +64,8 @@
     
     @media screen and (max-width: 320px) {
         #pretty-sweet-logo {
-            margin-top: -45px;
-            height: 725px;
+            margin-top: 0px;
+            height: 680px;
             width: 100%;
         }
     }
@@ -297,7 +297,7 @@
         padding: 15px;
         border: hidden;
         font-size: 200px;
-        margin-top: -11550px;
+        margin-top: -11700px;
         margin-left: 175px;
         text-align: center;
     }
@@ -309,11 +309,31 @@
     align-items: center;
     padding: 55px;
 }
+
+@media screen and (max-width: 320px) {
+    .audio-services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 55px;
+        margin-top: -9100px;
+    }
+}
+
 #mixer {
     width: 175px;
     height: 125px;
     border-radius: 150px;
 }
+
+@media screen and (max-width: 320px){
+    #mixer{
+        width: 100%;
+        height: 30%;
+    }
+}
+
 h3 + p {
     width: 175px;
     font-size: 17px;
@@ -370,7 +390,9 @@ h3 + p {
     margin-top: 40px;
     color: #fff;
 }
-.fa-facebook {}
+.fa-facebook {
+    
+}
 .fa-facebook:hover {
     color: #3b5998;
 }
@@ -387,13 +409,14 @@ h3 + p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     height: 200px;
     background-color: #000;
 }
 .email {
     font-size: 20px;
     padding: 10px;
-    margin-top: 80px;
+    margin-top: 0px;
     color: #fff;
     font-family: 'Didact Gothic', sans-serif;
 }

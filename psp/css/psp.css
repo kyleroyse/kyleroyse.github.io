@@ -413,12 +413,30 @@ h3 + p {
     height: 200px;
     background-color: #000;
 }
+
+@media screen and (max-width: 320px) {
+    .email-parent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 100%;
+        background-color: #000;
+    }
+}
 .email {
     font-size: 20px;
     padding: 10px;
     margin-top: 0px;
     color: #fff;
     font-family: 'Didact Gothic', sans-serif;
+}
+
+@media screen and (max-width: 320px) {
+    .email {
+        
+    }
 }
 .email:hover {
     color: #939393;

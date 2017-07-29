@@ -1,0 +1,23 @@
+.nav-pills{
+  font-family: lobster;
+  font-size: 1.7em;
+  background-color: white;
+}
+
+body{
+    background-color: white;
+    font-family: lobster;
+    color: white;
+}
+
+h1{
+    padding: 0px;
+    margin-top: 0px;
+    
+}
+
+.pageOne{
+    background:url(/Free-Code-Camp-Portfolio/img/jakob-owens-127761.jpg);
+    background-size: cover;
+    height: 800px;
+}

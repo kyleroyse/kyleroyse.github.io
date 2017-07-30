@@ -1,23 +1,32 @@
-.nav-pills{
-  font-family: lobster;
-  font-size: 1.7em;
-  background-color: white;
+.nav-pills {
+    font-family: Lobster;
+    font-size: 1.9em;
+    background-color: white;
 }
 
-body{
+body {
     background-color: white;
-    font-family: lobster;
+    font-family: Lobster;
     color: white;
 }
 
-h1{
-    padding: 0px;
+h1 {
+    font-family: Lobster;
+    padding: 0;
     margin-top: 0px;
-    
+    font-size: 7.0em;
 }
 
-.pageOne{
-    background:url(/Free-Code-Camp-Portfolio/img/jakob-owens-127761.jpg);
+.btn-default{
+    background-color: black;
+    border-color: black;
+    color: #337ab7;
+    font-size: 1.7em;
+}
+
+.pageOne {
+    background: url(/Free-Code-Camp-Portfolio/img/jakob-owens-127761.jpg);
     background-size: cover;
     height: 800px;
+    
 }

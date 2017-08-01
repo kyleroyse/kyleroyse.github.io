@@ -27,10 +27,14 @@ h1 {
     font-size: 1.7em;
 }
 
+.fa-github{
+    color: #6e5494;
+}
+
 .pageOne {
     background: url(/Free-Code-Camp-Portfolio/img/artem-sapegin-187141.jpg);
     background-size: cover;
-    height: 800px;
+    height: 850px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -49,7 +53,7 @@ h1 {
 .pageTwo {
     background: url(/Free-Code-Camp-Portfolio/img/alex-ruban-103990.jpg);
     background-size: cover;
-    height: 1200px;
+    height: 850px;
 }
 
 p {
@@ -76,7 +80,7 @@ p {
 .pageThree {
     background: url(/Free-Code-Camp-Portfolio/img/jeshoots-com-219056.jpg);
     background-size: cover;
-    height: 1200px;
+    height: 850px;
     display: block;
 }
 

@@ -1,23 +1,26 @@
 .nav-pills {
-    font-family: Lobster;
+    font-family: 'Mada', sans-serif;
     font-size: 1.9em;
     background-color: white;
+    margin-bottom: 13%;
 }
 
 body {
     background-color: white;
-    font-family: Lobster;
+    font-family: 'Mada', sans-serif;
     color: white;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h1 {
-    font-family: Lobster;
-    padding: 0;
+    font-family: 'Mada', sans-serif;
+    padding: 10px;
     margin-top: 0px;
-    font-size: 7.0em;
+    font-size: 5.0em;
 }
 
-.btn-default{
+.btn-default {
     background-color: black;
     border-color: black;
     color: #337ab7;
@@ -25,8 +28,60 @@ h1 {
 }
 
 .pageOne {
-    background: url(/Free-Code-Camp-Portfolio/img/jakob-owens-127761.jpg);
+    background: url(/Free-Code-Camp-Portfolio/img/artem-sapegin-187141.jpg);
     background-size: cover;
     height: 800px;
-    
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.block {
+    background-color: black;
+    opacity: .8;
+    padding: 15px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.pageTwo {
+    background: url(/Free-Code-Camp-Portfolio/img/alex-ruban-103990.jpg);
+    background-size: cover;
+    height: 1200px;
+}
+
+p {
+    font-size: 2.2em;
+    background-color: black;
+    opacity: .8;
+    padding: 15px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.me {
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-bottom: auto;
+    border-radius: 100px;
+}
+
+.pageThree {
+    background: url(/Free-Code-Camp-Portfolio/img/jeshoots-com-219056.jpg);
+    background-size: cover;
+    height: 1200px;
+    display: block;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 5.2em;
 }

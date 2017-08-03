@@ -63,7 +63,8 @@ h1 {
 .pageTwo {
     background: url(/Free-Code-Camp-Portfolio/img/alex-ruban-103990.jpg);
     background-size: cover;
-    height: 850px;
+    padding-bottom: 10%;
+    padding-top: 5%;
 }
 
 h2{
@@ -77,18 +78,15 @@ p {
     background-color: black;
     opacity: .8;
     padding: 15px;
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    margin-top: 10%;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 25px;
+    border-radius: 10px;   
 }
 
 .me {
     height: 300px;
-    margin-top: 10%;
-    margin-bottom: auto;
+    margin-top: 4%;
     border-radius: 50%;
 }
 

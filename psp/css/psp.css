@@ -1,5 +1,5 @@
     main {
-        background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url(/psp/img/florian-klauer-119557.jpg);
+        background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url(/psp/img/florian-klauer-119557.jpg);
         background-size: cover;
         background-position: center;
         padding: 150px 0;
@@ -162,6 +162,7 @@
         margin-top: 0px;
         height: 400px;
         margin-left: 190px;
+        border-radius: 20px;
     }
     
     @media screen and (max-width: 320px) {
@@ -174,6 +175,7 @@
             margin-top: 300px;
             width: 100%;
             height: 150%;
+            border-radius: 20px;
         }
     }
     

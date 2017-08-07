@@ -25,7 +25,7 @@ body {
 }
 
 .nav a:hover {
-    color: cadetblue;
+    color: #201a16;
 }
 
 .nav-pills {
@@ -60,11 +60,32 @@ p {
 
 .socialMedia{
     background-color: lightgrey;
+    margin-top: 5%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: lightgrey;
+    border-color: lightgrey;
+    padding-bottom: 20%;
+    padding-top: 20%;
+}
+
+.btn-primary:hover {
+    color: #201a16;
+    background-color: lightgrey;
+    border-color: #201a16;
+    padding-bottom: 20%;
+    padding-top: 20%;
+}
+
+
+.fa{
+    color: #201a16;
 }
 
 .footer {
     background-color: #201a16;
-    height: 175px;
 }
 
 .footer a {
@@ -73,5 +94,6 @@ p {
 }
 
 .email{
-    
+    padding-bottom: 5%;
+    padding-top: 5%;
 }

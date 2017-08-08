@@ -63,6 +63,11 @@ p {
     margin-top: 5%;
 }
 
+.btn-group{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
 .btn-primary {
     color: #fff;
     background-color: lightgrey;
@@ -79,6 +84,7 @@ p {
     display: block;
     width: 16%;
     margin-left: 42%;
+    margin-bottom: 5%;
 }
 
 .fa{

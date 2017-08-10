@@ -18,8 +18,3 @@ window.onclick = function(event) {
     }
   }
 }
-
-var age = 22
-if (age < 30 && age >20 ) {
-    document.write("<p>You are young!</p>");
-}

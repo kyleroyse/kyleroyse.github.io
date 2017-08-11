@@ -94,6 +94,7 @@ ul {
 li {
  float: right;
  margin: -10px;
+}
 =======
 * {
     color: black;
@@ -116,7 +117,7 @@ ul {
 
 li {
  float: right;
->>>>>>> origin/master
+
 }
 
 .home {
@@ -131,12 +132,12 @@ li {
     float: left;
     font-size: 45px;
     margin: -15px;
->>>>>>> origin/master
+
 }
 
 li a {
     display: block;
-<<<<<<< HEAD
+
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -171,7 +172,7 @@ li a:hover {
 
 .active {
     background-color: #4caf50;
->>>>>>> origin/master
+
 }
 
 .color {
@@ -198,6 +199,8 @@ li a:hover {
 .socialMedia {
     align-content: center;
     text-align: center;
+}
+    
 =======
 .img {
     color: white;
@@ -218,34 +221,34 @@ h1 {
 }
 
 .footer {
-    padding-top: 525px;
->>>>>>> origin/master
+    padding-top: 5%;
+
 }
 
 .fa-facebook {
     color: #3b5998;
     font-size: 50px;
-<<<<<<< HEAD
+
     margin-right: 10px;
 =======
     padding-left: 635px;
->>>>>>> origin/master
+
 }
 
 .fa-instagram {
     color: #fff;
     font-size: 50px;
-<<<<<<< HEAD
+
     margin-right: 10px;
 =======
     padding-left: 15px;
->>>>>>> origin/master
+
 }
 
 .fa-twitter {
     color: #4099ff;
     font-size: 50px;
-<<<<<<< HEAD
+
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -261,5 +264,5 @@ h1 {
 @media (min-width: @screen-lg-min) {  }
 =======
     padding-left: 15px;
-}
+
 >>>>>>> origin/master

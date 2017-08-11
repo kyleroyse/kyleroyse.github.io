@@ -22,9 +22,18 @@ body {
 
 .nav a {
     color: #fff;
+    padding: 15px;
 }
 
 .nav a:hover {
+    color: #201a16;
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
+.navbar-brand:hover{
     color: #201a16;
 }
 
@@ -100,3 +109,21 @@ a{
 a:hover{
     color: #fff;
 }
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {  }
+=======
+    

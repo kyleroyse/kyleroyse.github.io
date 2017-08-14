@@ -72,6 +72,29 @@ p {
     margin-left: 5%;
 }
 
+.contactBtn{
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    margin-right: 40%;
+    margin-left: 40%;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+
+.contactBtn:hover{
+    border: 1px solid #201a16;
+    margin-right: 40%;
+    margin-left: 40%;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    color: #201a16;
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+
 .socialMedia{
     background-color: lightgrey;
     margin-top: 5%;

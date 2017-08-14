@@ -84,6 +84,7 @@ p {
     padding: 6px;
     border-radius: 5px;
     font-size: 1.5em;
+    margin-top: 0px;
 }
 
 .contactBtn:hover{
@@ -95,6 +96,7 @@ p {
     background-color: lightgrey;
     color: #201a16;
     font-size: 1.5em;
+    margin-top: 0px;
 }
 
 .socialMedia{

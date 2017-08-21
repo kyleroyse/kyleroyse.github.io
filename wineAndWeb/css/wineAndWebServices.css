@@ -83,6 +83,13 @@ p {
     margin-top: 0px;
 }
 
+@media only screen and (max-width: 320px){
+    .contactBtn{
+    margin-right: 10%;
+    margin-left: 10%;
+    }
+}
+
 .contactBtn:hover{
     border: 1px solid #201a16;
     margin-right: 40%;
@@ -93,6 +100,13 @@ p {
     color: #201a16;
     font-size: 1.5em;
     margin-top: 0px;
+}
+
+@media only screen and (max-width: 320px){
+    .contactBtn:hover{
+    margin-right: 10%;
+    margin-left: 10%;
+    }
 }
 
 .socialMedia{
@@ -129,6 +143,13 @@ p {
     padding-bottom: 5%;
     padding-top: 5%;
     background-color: #201a16;
+}
+
+@media only screen and (max-width: 320px){
+    .email{
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
 }
 
 a{

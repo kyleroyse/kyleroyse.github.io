@@ -11,14 +11,14 @@ body {
 }
 
 .landing {
-    background: url(/pretty-sweet-productions/img/.sergei-akulich-39021.jpg.icloud);
+    background: url(https://images.unsplash.com/photo-1444791547342-3ed53f82e106?dpr=1&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=);
     background-size: cover;
     height: 575px;
 }
 
 @media only screen and (max-width: 320px){
     .landing{
-        background: url(/pretty-sweet-productions/img/sergei-akulich-39021.jpg);
+        background: url(https://images.unsplash.com/photo-1444791547342-3ed53f82e106?dpr=1&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=);
         background-size: cover;
         height: 380px;
     }

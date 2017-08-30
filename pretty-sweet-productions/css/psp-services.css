@@ -10,18 +10,16 @@ body {
     margin-left: auto;
 }
 
-navbar-default{
-    color:#fff;
-}
-
 .landing {
-    background: url(/wineAndWeb/img/lydia-harper-252225.jpg);
+    background: url(/pretty-sweet-productions/img/.sergei-akulich-39021.jpg.icloud);
     background-size: cover;
     height: 575px;
 }
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width: 320px){
     .landing{
+        background: url(/pretty-sweet-productions/img/sergei-akulich-39021.jpg);
+        background-size: cover;
         height: 380px;
     }
 }
@@ -54,52 +52,22 @@ navbar-default{
     color: #201a16;
 }
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width: 320px){
     .navbar-brand{
-        float: left;
-    height: 50px;
-    padding: 0px 15px;
-    font-size: 2.0em;
-    line-height: 20px;
+        font-size: 2.0em;
+        margin-top: -17%;
     }
 }
-
-img{
-    height: 100%;
-    width: 100%;
-    margin-top: -20%;
-}
-
 
 h1 {
     margin-top: 11%;
-    margin-left: 28%;
-    font-size: 4.2em;
-    animation: type 3s steps(18);
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 4px solid #201a16;
-    width: 18ch;
+    font-size: 6.2em;
 }
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width: 320px){
     h1{
-    margin-top: 11%;
-    margin-left: 0%;
-    font-size: 2.2em;
-    animation: type 3s steps(18);
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 4px solid #201a16;
-    }
-}
-
-@keyframes type{
-    0%{
-        width: 0ch;
-    }
-    100%{
-        width: 18ch;
+        margin-top: 27%;
+        font-size: 6.2em;
     }
 }
 
@@ -107,6 +75,60 @@ h1 {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+h2{
+    margin-top: 5%;
+    font-size: 4.0em;
+    color: #201a16;
+    border-bottom: 1px solid #201a16;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+@media only screen and (max-width: 768px){
+    h2{
+        margin-top: 5%;
+        font-size: 4.0em;
+        color: #201a16;
+        border-bottom: 1px solid #201a16;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    h2{
+        margin-top: 5%;
+        font-size: 4.0em;
+        color: #201a16;
+        border-bottom: 1px solid #201a16;
+        margin-left: 28%;
+        margin-right: 28%;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    h2{
+        margin-top: 5%;
+        font-size: 4.0em;
+        color: #201a16;
+        border-bottom: 1px solid #201a16;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    h2{
+        margin-top: 5%;
+        font-size: 4.0em;
+        color: #201a16;
+        border-bottom: 1px solid #201a16;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
 
 p {
     color: #000;
@@ -168,7 +190,7 @@ p {
 }
 
 .btn-primary:hover {
-    color: #ffffff;
+    color: #201a16;
     background-color: lightgrey;
     border-color: #201a16;
     padding-bottom: 20%;
@@ -203,6 +225,7 @@ a{
 a:hover{
     color: #fff;
 }
+
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}

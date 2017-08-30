@@ -86,6 +86,28 @@ p {
     margin-left: 5%;
 }
 
+.embeded-youtube-video{
+    padding: 5%;
+}
+
+@media only screen and (max-width: 425px){
+    iframe{
+        width: 425px;
+    }
+}
+@media only screen and (max-width: 375px){
+    iframe{
+        width: 375px;
+    }
+}
+
+
+@media only screen and (max-width: 320px){
+iframe{
+    width: 320px;
+    }
+}
+
 .contactBtn{
     border: 1px solid lightgrey;
     background-color: lightgrey;

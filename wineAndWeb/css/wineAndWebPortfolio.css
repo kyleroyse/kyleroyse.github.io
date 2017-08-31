@@ -11,14 +11,14 @@ body {
 }
 
 .landing {
-    background: url(/wineAndWeb/img/anchor-lee-181398.jpg);
+    background: url(https://images.unsplash.com/photo-1483068612337-c045daaca40e?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
     background-size: cover;
     height: 575px;
 }
 
 @media only screen and (max-width: 320px){
     .landing{
-        background: url(/wineAndWeb/img/anchor-lee-181398.jpg);
+        background: url(https://images.unsplash.com/photo-1483068612337-c045daaca40e?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
     background-size: cover;
     height: 380px;
     }

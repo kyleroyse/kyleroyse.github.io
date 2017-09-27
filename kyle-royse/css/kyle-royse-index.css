@@ -56,7 +56,7 @@ navbar-default{
 
 @media only screen and (max-width:320px){
     .navbar-brand{
-        float: left;
+    float: left;
     height: 50px;
     padding: 0px 15px;
     font-size: 2.0em;
@@ -73,13 +73,10 @@ img{
 
 h1 {
     margin-top: 11%;
-    margin-left: 28%;
+    margin-left: 0%;
     font-size: 4.2em;
-    animation: type 3s steps(20);
     overflow: hidden;
     white-space: nowrap;
-    border-right: 4px solid #201a16;
-    width: 18ch;
 }
 
 @media only screen and (max-width:320px){
@@ -87,19 +84,8 @@ h1 {
     margin-top: 11%;
     margin-left: 0%;
     font-size: 2.2em;
-    animation: type 3s steps(20);
     overflow: hidden;
     white-space: nowrap;
-    border-right: 4px solid #201a16;
-    }
-}
-
-@keyframes type{
-    0%{
-        width: 0ch;
-    }
-    100%{
-        width: 18ch;
     }
 }
 

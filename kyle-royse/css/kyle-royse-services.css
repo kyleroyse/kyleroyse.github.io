@@ -11,14 +11,14 @@ body {
 }
 
 .landing {
-    background: url(https://images.unsplash.com/photo-1498026474556-93048b8493d8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=);
+    background: url(https://images.unsplash.com/photo-1444044205806-38f3ed106c10?dpr=1&auto=compress,format&fit=crop&w=1000&h=&q=80&cs=tinysrgb&crop=);
     background-size: cover;
     height: 575px;
 }
 
 @media only screen and (max-width: 320px){
     .landing{
-        background: url(https://images.unsplash.com/photo-1466026396492-d69f93144acc?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+        background: url();
         background-size: cover;
         height: 380px;
     }
@@ -81,8 +81,8 @@ h2{
     font-size: 4.0em;
     color: #201a16;
     border-bottom: 1px solid #201a16;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 @media only screen and (max-width: 768px){

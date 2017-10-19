@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lynda JavaScript</title>
+    </head>
+    <body>
+        <h1>Headline</h1>
+        <p>a very interesting webpage.</p>
+        <script>
+        //define several functions
+        function firstFunction(){
+            secondFunction();
+        }
+        funtion thirdFunction(){
+            fourthFunction();
+        }
+        Function fourthFunction(){
+            headline.innerHTML = "You clicked the headline!";
+        }
+            
+            //grab the headline element
+            var headline = document.getElementById("mainHeading");
+            //add a click event handler 
+            headline.onclick= function(){
+                firstFunction();
+            }
+        </script>
+    </body>
+</html>

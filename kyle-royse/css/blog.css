@@ -82,6 +82,9 @@ h2 {
     margin-bottom: 5%;
 }
 
+.blog1:hover{
+    text-decoration: underline;
+}
 
 .blog-img{
     height: 60%;

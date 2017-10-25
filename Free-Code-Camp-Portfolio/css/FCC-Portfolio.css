@@ -1,7 +1,7 @@
 .nav-pills {
     font-family: 'Mada', sans-serif;
     font-size: 1.9em;
-    background-color: white;
+    background-color: darkslategray;
     margin-bottom: 13%;
 }
 
@@ -44,9 +44,10 @@ h1 {
 }
 
 .pageOne {
-    background: url(/Free-Code-Camp-Portfolio/img/artem-sapegin-187141.jpg);
+    background: url(/Free-Code-Camp-Portfolio/img/artem-sapegin-187141%20copy.jpg);
     background-size: cover;
     padding-bottom: 22%;
+    background-attachment: fixed;
 }
 
 .block {
@@ -61,10 +62,11 @@ h1 {
 }
 
 .pageTwo {
-    background: url(/Free-Code-Camp-Portfolio/img/alex-ruban-103990.jpg);
+    background: url(/Free-Code-Camp-Portfolio/img/alessandro-sacchi-195296%20copy.jpg);
     background-size: cover;
     padding-bottom: 10%;
     padding-top: 5%;
+    background-attachment: fixed;
 }
 
 h2{
@@ -91,10 +93,11 @@ p {
 }
 
 .pageThree {
-    background: url(/Free-Code-Camp-Portfolio/img/jeshoots-com-219056.jpg);
+    background: url(/Free-Code-Camp-Portfolio/img/milosz-ebert-93702%20copy.jpg);
     background-size: cover;
     height: 850px;
     display: block;
+    background-attachment: fixed;
 }
 
 .paddingTop{

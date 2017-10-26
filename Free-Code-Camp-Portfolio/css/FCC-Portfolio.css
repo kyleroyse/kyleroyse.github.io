@@ -1,23 +1,87 @@
-.nav-pills {
-    font-family: 'Mada', sans-serif;
-    font-size: 1.9em;
-    background-color: darkslategray;
-    margin-bottom: 13%;
-}
-
 body {
     background-color: white;
-    font-family: 'Mada', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     color: white;
     margin-right: auto;
     margin-left: auto;
 }
 
+.nav-pills {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.9em;
+}
+
+.nav-pills>li>a {
+    border-radius: 0px;
+}
+
+.banner {
+	display: block;
+	min-height: 200px;
+	width: 100%;
+	position: relative;
+}
+.typed_wrap {
+	display: block;
+	width: 290px;
+	height: auto;
+	padding: 30px;
+	
+	/*centers it in the .banner*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.typed_wrap h1 {
+	display: inline;
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
 h1 {
-    font-family: 'Mada', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     padding: 10px;
     margin-top: 0px;
     font-size: 5.0em;
+}
+
+.btnList{
+    
 }
 
 .btn-default {
@@ -35,10 +99,6 @@ h1 {
     color: #0077b5;
 }
 
-.fa-youtube-play {
-    color: #bb0000;
-}
-
 .fa-facebook-official {
     color: #3b5998;
 }
@@ -46,7 +106,9 @@ h1 {
 .pageOne {
     background: url(/Free-Code-Camp-Portfolio/img/artem-sapegin-187141%20copy.jpg);
     background-size: cover;
-    padding-bottom: 22%;
+    height: 100%;
+    padding-top: 18%;
+    padding-bottom: 20%;
     background-attachment: fixed;
 }
 
@@ -54,6 +116,7 @@ h1 {
     background-color: black;
     opacity: .8;
     padding: 15px;
+    padding-top: 10px;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -64,12 +127,13 @@ h1 {
 .pageTwo {
     background: url(/Free-Code-Camp-Portfolio/img/alessandro-sacchi-195296%20copy.jpg);
     background-size: cover;
+    height: 100%;
     padding-bottom: 10%;
     padding-top: 5%;
     background-attachment: fixed;
 }
 
-h2{
+h2 {
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 5.2em;
@@ -83,7 +147,7 @@ p {
     width: 100%;
     margin-left: 10%;
     margin-top: 25px;
-    border-radius: 10px;   
+    border-radius: 10px;
 }
 
 .me {
@@ -95,17 +159,39 @@ p {
 .pageThree {
     background: url(/Free-Code-Camp-Portfolio/img/milosz-ebert-93702%20copy.jpg);
     background-size: cover;
-    height: 850px;
+    height: 100%;
     display: block;
     background-attachment: fixed;
 }
 
-.paddingTop{
+.paddingTop {
     padding-bottom: 2%;
     padding-top: 2%;
 }
 
 h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 5.2em;
+}
+
+.pageFour {
+    background: url(/Free-Code-Camp-Portfolio/img/krystian-tambur-101317%20copy.jpg);
+    background-size: cover;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    height: 100%;
+    display: block;
+    background-attachment: fixed;
+}
+
+h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 3.2em;
+}
+
+h5 {
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 5.2em;

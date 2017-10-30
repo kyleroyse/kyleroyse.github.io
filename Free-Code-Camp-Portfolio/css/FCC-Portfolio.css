@@ -13,64 +13,103 @@ body {
 
 .nav-pills>li>a {
     border-radius: 0px;
+    color: yellow;
+}
+
+.nav-pills>li>a:hover {
+    text-decoration: none;
+    background-color: #4f4f4f;
+}
+
+#navContainer.shrink {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 60px;
+    padding-top: 0px;
 }
 
 .banner {
-	display: block;
-	min-height: 200px;
-	width: 100%;
-	position: relative;
+    display: block;
+    min-height: 200px;
+    width: 100%;
+    position: relative;
 }
+
 .typed_wrap {
-	display: block;
-	width: 290px;
-	height: auto;
-	padding: 30px;
-	
-	/*centers it in the .banner*/
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%,-50%);
-	-moz-transform: translate(-50%,-50%);
-	-ms-transform: translate(-50%,-50%);
-	-o-transform: translate(-50%,-50%);
-	transform: translate(-50%,-50%);
+    display: block;
+    width: 290px;
+    height: auto;
+    padding: 30px;
+    /*centers it in the .banner*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .typed_wrap h1 {
-	display: inline;
+    display: inline;
 }
+
 
 /*Add custom cursor so it auto inherits font styles*/
+
 .typed::after {
-	content: '|';
-	display: inline;
-	-webkit-animation: blink 0.7s infinite;
-	-moz-animation: blink 0.7s infinite;
-	animation: blink 0.7s infinite;
+    content: '|';
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
 }
 
+
 /*Removes cursor that comes with typed.js*/
-.typed-cursor{
-   opacity: 0;
-	display: none;
+
+.typed-cursor {
+    opacity: 0;
+    display: none;
 }
+
+
 /*Custom cursor animation*/
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 h1 {
@@ -80,8 +119,8 @@ h1 {
     font-size: 5.0em;
 }
 
-.btnList{
-    
+.btnList {
+    margin-top: 20%;
 }
 
 .btn-default {
@@ -104,7 +143,7 @@ h1 {
 }
 
 .pageOne {
-    background: url(/Free-Code-Camp-Portfolio/img/artem-sapegin-187141%20copy.jpg);
+    background: url(../img/artem-sapegin-187141%20copy.jpg);
     background-size: cover;
     height: 100%;
     padding-top: 18%;
@@ -125,17 +164,19 @@ h1 {
 }
 
 .pageTwo {
-    background: url(/Free-Code-Camp-Portfolio/img/alessandro-sacchi-195296%20copy.jpg);
+    background-color: #fff;
     background-size: cover;
     height: 100%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     padding-top: 5%;
     background-attachment: fixed;
+    align-items: center;
 }
 
 h2 {
+    color: #000;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 4%;
     font-size: 5.2em;
 }
 
@@ -144,20 +185,56 @@ p {
     background-color: black;
     opacity: .8;
     padding: 15px;
-    width: 100%;
-    margin-left: 10%;
-    margin-top: 25px;
+    width: 20%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 10px;
 }
 
-.me {
-    height: 300px;
-    margin-top: 4%;
-    border-radius: 50%;
+#top-row {
+    margin-bottom: 5%;
+}
+
+#bootstrap-logo {
+    height: 50%;
+    width: 50%;
+    border-radius: 8%;
+}
+
+#git-logo {
+    height: 50%;
+    width: 50%;
+}
+
+#html-css-logo {
+    height: 50%;
+    width: 50%;
+}
+
+#jQuery-logo {
+    height: 50%;
+    width: 50%;
+}
+
+#react-logo {
+    height: 50%;
+    width: 50%;
+}
+
+#sql-logo {
+    height: 380px;
+    width: 350px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
 
 .pageThree {
-    background: url(/Free-Code-Camp-Portfolio/img/milosz-ebert-93702%20copy.jpg);
+    background: url(../img/milosz-ebert-93702%20copy.jpg);
     background-size: cover;
     height: 100%;
     display: block;
@@ -176,7 +253,7 @@ h3 {
 }
 
 .pageFour {
-    background: url(/Free-Code-Camp-Portfolio/img/krystian-tambur-101317%20copy.jpg);
+    background: url(../img/anchor-lee-181398%20copy.jpg);
     background-size: cover;
     padding-bottom: 10%;
     padding-top: 5%;
@@ -186,13 +263,88 @@ h3 {
 }
 
 h4 {
+    color: #fff;
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 3.2em;
 }
 
 h5 {
+    color: #000;
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 5.2em;
+}
+
+form {
+    background-color: black;
+    opacity: .8;
+    padding: 15px;
+    padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 4%;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+form .row:first-child .form-item {
+    border-top: 1px solid #000;
+}
+
+.form-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+}
+
+.form-item input,
+.form-item textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+    width: 100%;
+}
+
+.form-item input:focus {
+    outline: 0;
+}
+
+.form-item label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease;
+}
+
+.form-item-filled label {
+    top: 0;
+    opacity: 1;
+    color: #aaa;
+}
+
+.form-item-focusd label {
+    color: #722872;
+}
+
+button {
+    color: #0f0f0f;
 }

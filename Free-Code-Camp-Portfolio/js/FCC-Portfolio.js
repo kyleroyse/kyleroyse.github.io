@@ -1,9 +1,10 @@
 $(document).ready(() => {
-   
+
     // H1 typed.js effect
+
     $(function(){
 	$(".typed").typed({
-		strings: ["Web Sites.", "User Interfaces.", "SQlite Databases.", "Web Applications", "Computer Games"],
+		strings: ["Websites.", "User Interfaces.", "Web Applications.", "SQlite Databases."],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
@@ -13,11 +14,11 @@ $(document).ready(() => {
 		// backspacing speed
 		backSpeed: 20,
 		// time before backspacing
-		backDelay: 500,
+		backDelay: 600,
 		// loop
 		loop: true,
 		// false = infinite
-		loopCount: 5,
+		loopCount: 10,
 		// show cursor
 		showCursor: false,
 		// character for cursor
@@ -36,5 +37,40 @@ $(document).ready(() => {
 		resetCallback: function() {}
 	});
 });
+
+
+// Animated Scrolling Navbar
+
+    $(window).scroll(function() {
+        if($(document).scrollTop() > 80) {
+            $('#navContainer').addClass('shrink');
+        } else {
+            $('#navContainer').removeClass('shrink');
+        }
+    })
+
+// Animated Scrolling Navbar FadeIN
+
+   $(window).scroll(function() {
+// 100 = The point you would like to fade the nav in.
+  
+	if ($(window).scrollTop() > 100 ){
     
+ 		$('#navContainer').addClass('show');
+    
+  } else {
+    
+    $('#navContainer').removeClass('show');
+    
+ 	};   	
+});
+
+$('.scroll').on('click', function(e){		
+		e.preventDefault()
+    
+  $('html, body').animate({
+      scrollTop : $(this.hash).offset().top
+    }, 1500);
+});
+
 });

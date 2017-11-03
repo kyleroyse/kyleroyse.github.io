@@ -14,6 +14,7 @@ body {
     background: url(https://images.unsplash.com/photo-1444044205806-38f3ed106c10?dpr=1&auto=compress,format&fit=crop&w=1000&h=&q=80&cs=tinysrgb&crop=);
     background-size: cover;
     height: 575px;
+    background-attachment: fixed;
 }
 
 @media only screen and (max-width: 320px){
@@ -26,7 +27,6 @@ body {
 
 .nav {
     padding: 10px;
-    margin-top: 3%;
 }
 
 .nav-main{
@@ -50,6 +50,12 @@ body {
 
 .navbar-brand:hover{
     color: #201a16;
+}
+
+#navContainer.shrink {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 60px;
+    padding-top: 0px;
 }
 
 @media only screen and (max-width: 320px){
@@ -129,7 +135,6 @@ h2{
     }
 }
 
-
 p {
     color: #000;
     font-size: 2.3em;
@@ -137,6 +142,61 @@ p {
     margin-top: 7%;
     margin-right: 5%;
     margin-left: 5%;
+}
+
+.competencies{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: #201a16;
+    font-size: 3.9em;
+    border-bottom: 1px solid #201a16;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+#top-row {
+    margin-bottom: 5%;
+}
+
+#bottom-row {
+    
+}
+
+#bootstrap-logo {
+    height: 50%;
+    width: 50%;
+    border-radius: 8%;
+}
+
+#git-logo {
+    height: 50%;
+    width: 50%;
+}
+
+#html-css-logo {
+    height: 50%;
+    width: 50%;
+}
+
+#jQuery-logo {
+    height: 50%;
+    width: 50%;
+}
+
+#react-logo {
+    height: 50%;
+    width: 50%;
+}
+
+#sql-logo {
+    height: 380px;
+    width: 350px;
 }
 
 .contactBtn{

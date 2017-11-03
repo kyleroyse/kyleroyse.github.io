@@ -15,6 +15,7 @@ body {
     background-size: cover;
     height: 575px;
     width: 100%;
+    background-attachment: fixed;
 }
 
 @media only screen and (max-width:425px){
@@ -136,6 +137,79 @@ h1 {
 .about{
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+form {
+    background-color: black;
+    opacity: .8;
+    padding: 15px;
+    padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 4%;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+form .row:first-child .form-item {
+    border-top: 1px solid #000;
+}
+
+.form-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+}
+
+.form-item input,
+.form-item textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+    width: 100%;
+}
+
+.form-item input:focus {
+    outline: 0;
+}
+
+.form-item label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease;
+}
+
+.form-item-filled label {
+    top: 0;
+    opacity: 1;
+    color: #aaa;
+}
+
+.form-item-focusd label {
+    color: #722872;
+}
+
+button {
+    color: #0f0f0f;
 }
 
 p {

@@ -1,0 +1,351 @@
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #fff;
+}
+
+#wrapper{
+    height: fit-content;
+}
+
+#hero{
+    background-color: rgb(31, 46, 46);
+    padding-bottom: 5%;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.navbar{
+    padding-top: 3%;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3.8em;
+    white-space: nowrap;
+    color: #fff;
+}
+
+@media only screen and (max-width:768px) {
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.2em;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.7em;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.6em;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5em;
+        white-space: nowrap;
+    }
+}
+
+.typed_wrap {
+    display: block;
+    position: relative;
+    height: auto;
+    padding: 30px;
+    /*centers it in the .banner*/
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.typed_wrap h1 {
+    display: inline;
+}
+
+
+/*Add custom cursor so it auto inherits font styles*/
+
+.typed::after {
+    content: '|';
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+
+/*Removes cursor that comes with typed.js*/
+
+.typed-cursor {
+    opacity: 0;
+    display: none;
+    color: #201a16;
+}
+
+
+/*Custom cursor animation*/
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.btn-lg{
+    margin-top: 375px;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-lg{
+        margin-top: 250px;
+    }
+}
+
+#for-hire-btn{
+    position: relative;
+    border: 2px solid #997a00;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #fff;
+    font-size: .8em;
+}
+
+#for-hire-btn:hover{
+    color: #fff;
+    text-transform: none;
+    background-color: #997a00;
+    border: 2px solid #997a00;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    font-size: .8em;
+}
+
+#learn-more-contain{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#learn-more-btn{
+    color: #fff;
+    align-self: center;
+    margin-top: 175px;
+}
+
+#learn-more-btn:hover{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+#competencies-and-frameworks{
+    background-color: #fff;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.title{
+    text-decoration: underline;
+    font-size: 2.5em;
+    color: #201a16;
+
+}
+
+#top-row {
+    margin-bottom: 5%;
+    padding-top: 3%;
+}
+
+#bootstrap-logo {
+    height: 100%;
+    width: 50%;
+    border-radius: 8%;
+}
+
+#git-logo {
+    height: 100%;
+    width: 100%;
+}
+
+#html-css-logo {
+    height: 85%;
+    width: 50%;
+}
+
+#jQuery-logo {
+    height: 50%;
+    width: 50%;
+}
+
+#react-logo {
+    height: 80%;
+    width: 50%;
+}
+
+#sql-logo {
+    height: 380px;
+    width: 350px;
+}
+
+.pageFour {
+    background-color: #997a00;
+    background-size: cover;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    height: 100%;
+    display: block;
+    background-attachment: fixed;
+}
+
+h4 {
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 3.2em;
+}
+
+h5 {
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 3.2em;
+}
+
+form {
+    background-color: black;
+    opacity: .8;
+    padding: 15px;
+    padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 4%;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    form{
+        width: 90%;
+    }
+}
+
+
+form .row:first-child .form-item {
+    border-top: 1px solid #000;
+}
+
+.form-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+}
+
+.form-item input,
+.form-item textarea {
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+    width: 100%;
+}
+
+.form-item input:focus {
+    outline: 0;
+}
+
+.form-item label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease;
+}
+
+.form-item-filled label {
+    top: 0;
+    opacity: 1;
+    color: #aaa;
+}
+
+.form-item-focusd label {
+    color: #722872;
+}
+
+button {
+    color: #0f0f0f;
+}

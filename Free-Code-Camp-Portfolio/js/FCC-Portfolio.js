@@ -38,7 +38,6 @@ $(document).ready(() => {
 	});
 });
 
-
 // Animated Scrolling Navbar
 
     $(window).scroll(function() {

@@ -60,16 +60,21 @@ $(document).ready(() => {
 		resetCallback: function() {}
 	});
 });
-    
 
-    // Animated Scrolling Navbar
+});
 
-    $(window).scroll(function () {
-        if ($(document).scrollTop() > 80) {
-            $('#navContainer').addClass('shrink');
-        } else {
-            $('#navContainer').removeClass('shrink');
-        }
-    })
+// Form redirect to php file
 
+$.ajax({
+    url: '../php/kyleRoyse.php',
+    type: 'POST',
+    dataType: "json",
+    data: {
+        name: $('#name').val(),
+        email: $('#email').val(),
+        phone: $('#phone').val(),
+        message: $('#message').val(),
+    }
+}).done(function(data){
+    alert(JSON.stringify(data));
 });

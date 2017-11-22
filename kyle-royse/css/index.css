@@ -55,6 +55,10 @@ navbar-default{
     color: #201a16;
 }
 
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
 @media only screen and (max-width:320px){
     .navbar-brand{
     float: left;
@@ -94,7 +98,6 @@ h1 {
 
 .typed_wrap {
     display: block;
-    width: 290px;
     height: auto;
     padding: 30px;
     /*centers it in the .banner*/
@@ -181,45 +184,29 @@ p {
     font-size: 2.3em;
     font-weight: 100;
     margin-top: 7%;
-    margin-right: 5%;
-    margin-left: 5%;
+
 }
 
 .contactBtn{
     border: 1px solid lightgrey;
     background-color: lightgrey;
-    margin-right: 40%;
-    margin-left: 40%;
-    padding: 6px;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 5px;
     font-size: 1.5em;
     margin-top: 0px;
 }
 
-@media only screen and (max-width: 320px){
-    .contactBtn{
-    margin-right: 10%;
-    margin-left: 10%;
-    }
-}
-
 .contactBtn:hover{
     border: 1px solid #201a16;
-    margin-right: 40%;
-    margin-left: 40%;
+    margin-right: auto;
+    margin-left: auto;
     padding: 6px;
     border-radius: 5px;
     background-color: lightgrey;
     color: #201a16;
     font-size: 1.5em;
     margin-top: 0px;
-}
-
-@media only screen and (max-width: 320px){
-    .contactBtn:hover{
-    margin-right: 10%;
-    margin-left: 10%;
-    }
 }
 
 .socialMedia{

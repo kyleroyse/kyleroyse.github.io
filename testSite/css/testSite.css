@@ -1,0 +1,111 @@
+body{
+    background-color: #1f2e2e;
+}
+
+.typed_wrap {
+    display: block;
+    height: auto;
+    padding: 30px;
+    /*centers it in the .banner*/
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.typed_wrap h1 {
+    display: inline;
+}
+
+
+/*Add custom cursor so it auto inherits font styles*/
+
+.typed::after {
+    content: '|';
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+
+/*Removes cursor that comes with typed.js*/
+
+.typed-cursor {
+    opacity: 0;
+    display: none;
+    color: #201a16;
+}
+
+
+/*Custom cursor animation*/
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#for-hire-btn{
+    border: 2px solid #997a00;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #fff;
+    font-size: .8em;
+}
+
+#for-hire-btn:hover{
+    color: #fff;
+    text-transform: none;
+    background-color: #997a00;
+    border: 2px solid #997a00;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    font-size: .8em;
+}
+
+#learn-more-btn{
+    color: #fff;
+}
+
+#learn-more-btn:hover{
+    color: #cccccc;
+    text-decoration: none;
+}
